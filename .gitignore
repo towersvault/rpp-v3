@@ -43,3 +43,6 @@ pokeblue.map
 
 # ignore local rgbds
 rgbds/*
+
+# Ignore VSCode junk
+.vscode/

@@ -60,12 +60,12 @@ pokeblue_opt = -Cjv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
 	$(RGBDS_DIR)rgbfix $($*_opt) $@
 	sort $*.sym -o $*.sym
 
-gfx/blue/intro_purin_1.6x6.2bpp: rgbgfx += -h
-gfx/blue/intro_purin_2.6x6.2bpp: rgbgfx += -h
-gfx/blue/intro_purin_3.6x6.2bpp: rgbgfx += -h
-gfx/red/intro_nido_1.6x6.2bpp: rgbgfx += -h
-gfx/red/intro_nido_2.6x6.2bpp: rgbgfx += -h
-gfx/red/intro_nido_3.6x6.2bpp: rgbgfx += -h
+gfx/blue/intro_purin_1.6x6.2bpp: rgbgfx += -Z
+gfx/blue/intro_purin_2.6x6.2bpp: rgbgfx += -Z
+gfx/blue/intro_purin_3.6x6.2bpp: rgbgfx += -Z
+gfx/red/intro_nido_1.6x6.2bpp: rgbgfx += -Z
+gfx/red/intro_nido_2.6x6.2bpp: rgbgfx += -Z
+gfx/red/intro_nido_3.6x6.2bpp: rgbgfx += -Z
 
 gfx/game_boy.norepeat.2bpp: tools/gfx += --remove-duplicates
 gfx/theend.interleave.2bpp: tools/gfx += --interleave --png=$<
