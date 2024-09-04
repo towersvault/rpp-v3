@@ -62,22 +62,27 @@ VersionScreenText:
 	db   "Welcome to Red++"
 	next "You are playing"
 IF DEF(_HARD) ; Hard Rom
-	next "The Hard Patch"
+	next "on Hard with"
 ELSE ; Normal Rom
-	next "The Normal Patch"
+	next "on Normal with"
+ENDC
+IF DEF(_TRAINERREMATCH)
+	next "Trainer Rematch"
+ELSE
+	next "no Rematching"
 ENDC
 IF DEF(_SNOW)
-	next "v3.0.2 (Snowy)@"
+	next "v3.0.3 (Snowy)@"
 ELSE
-	next "v3.0.2@"
+	next "v3.0.3@"
 ENDC
 
 VersionScreenText2:
 	db   "Readme and FAQ"
 	next "are found at:"
 	next "www.github.com/"
-	next "JustRegularLuna/"
-	next "rpp-backup@"
+	next "towersvault/"
+	next "rpp-v3@"
 
 VersionScreenText3:
 	db   "Have fun!"

@@ -1262,6 +1262,14 @@ PokemartGreetingText::
 	TX_FAR _PokemartGreetingText
 	db "@"
 
+IF DEF(_TRAINERREMATCH)
+; @towersvault:
+; Ported this over from Pokemon Shin Red
+RematchTrainerText::
+	TX_FAR _OneMoreGoSlotMachineText
+	db "@"
+ENDC
+
 LoadItemList::
 	ld a,1
 	ld [wUpdateSpritesEnabled],a
@@ -2348,6 +2356,14 @@ TalkToTrainer::
 	ld a, c
 	and a
 	jr z, .trainerNotYetFought     ; test trainer's flag
+IF DEF(_TRAINERREMATCH)
+	;---------------------------------------------------------------------------------
+	; @towersvault
+	; Ported the following over from Pokemon Shin Red to allow for rematching trainers
+	callba TrainerRematch
+	jr nz, .trainerNotYetFought
+	;---------------------------------------------------------------------------------
+ENDC
 	ld a, $6
 	call ReadTrainerHeaderInfo     ; print after battle text
 	jp PrintText
@@ -3035,6 +3051,13 @@ YesNoChoice::
 	call InitYesNoTextBoxParameters
 	jr DisplayYesNoChoice
 
+; @towersvault:
+; Ported this over from Pokemon Shin Red
+NoYesChoice::
+	call SaveScreenTilesToBuffer1
+	call InitNoYesTextBoxParameters
+	jr DisplayYesNoChoice
+
 Func_35f4::
 	ld a, TWO_OPTION_MENU
 	ld [wTextBoxID], a
@@ -3043,6 +3066,15 @@ Func_35f4::
 
 InitYesNoTextBoxParameters::
 	xor a ; YES_NO_MENU
+	ld [wTwoOptionMenuID], a
+	coord hl, 14, 7
+	ld bc, $80f
+	ret
+
+; @towersvault:
+; Ported this over from Pokemon Shin Red
+InitNoYesTextBoxParameters::
+	ld a, NO_YES_MENU
 	ld [wTwoOptionMenuID], a
 	coord hl, 14, 7
 	ld bc, $80f

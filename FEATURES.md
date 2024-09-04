@@ -80,6 +80,11 @@ These are notable features which have been added
 * Chain-Fishing for Shinies
 * More
 
+### Additions made in 2024
+These are additional features added in this specific fork
+* Added easier feature flag enabling/disabling in the Makefile when building the ROM
+* Added optional Trainer Rematching
+* Added the option to restore the original Copyright boot screen when starting up the game
 
 ## BEHIND-THE-SCENES FEATURES
 These are probably only interesting to people wanting to use this as a baserom

@@ -61,9 +61,10 @@ RGBASMFLAGS += -h
 # _ORIGINALINTRO restores the original copyright intro of RED/BLUE. Disabled by default to still give credit to Mateo/Luna.
 # _SNOW builds a ROM with the snowy tileset.
 # _HARD creates a ROM with HARD difficulty.
+# _TRAINERREMATCH enables the ability to rematch trainers.
 
-$(pokered_obj):  RGBASMFLAGS += -D _RED
-$(pokeblue_obj): RGBASMFLAGS += -D _BLUE
+$(pokered_obj):  RGBASMFLAGS += -D _RED -D _TRAINERREMATCH
+$(pokeblue_obj): RGBASMFLAGS += -D _BLUE -D _TRAINERREMATCH
 
 # The dep rules have to be explicit or else missing files won't be reported.
 # As a side effect, they're evaluated immediately instead of when the rule is invoked.

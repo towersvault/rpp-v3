@@ -2155,6 +2155,12 @@ INCLUDE "color/animations.asm"
 
 SECTION "bank2D",ROMX,BANK[$2D]
 
+;-------------------------------------------------
+; @towersvault
+; Ported over a few features from Pokemon Shin Red
+INCLUDE "custom_functions/func_overworld.asm"
+;-------------------------------------------------
+
 HorseaPicFront::       INCBIN "pic/bmon/horsea.pic"
 HorseaPicBack::        INCBIN "pic/monback/horseab.pic"
 SeadraPicFront::      INCBIN "pic/bmon/seadra.pic"
