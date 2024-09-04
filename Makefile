@@ -4,10 +4,26 @@ else
 RGBDS_DIR =
 endif
 
+rom_obj := \
+	audio.o \
+	main.o \
+	text.o \
+	wram.o \
+
+pokered_obj := $(rom_obj:.o=_red.o)
+pokeblue_obj := $(rom_obj:.o=_blue.o)
+
+### Build tools
+
 MD5 := md5sum -c
 
-pokered_obj := audio_red.o main_red.o text_red.o wram_red.o
-pokeblue_obj := audio_blue.o main_blue.o text_blue.o wram_blue.o
+RGBDS ?=
+RGBASM  ?= $(RGBDS)rgbasm
+RGBFIX  ?= $(RGBDS)rgbfix
+RGBGFX  ?= $(RGBDS)rgbgfx
+RGBLINK ?= $(RGBDS)rgblink
+
+### Build targets
 
 .SUFFIXES:
 .SECONDEXPANSION:
@@ -33,24 +49,50 @@ clean:
 tools:
 	$(MAKE) -C tools/
 
+RGBASMFLAGS = -Weverything
+rgbdscheck.o: rgbdscheck.asm
+	$(RGBASM) -o $@ $<
+
+RGBASMFLAGS += -h
+# -h makes it so that a nop instruction is NOT automatically added by the compiler after every halt instruction
+# -Weverything makes the compiler print all applicable warnings
+
+# Additional RGBASM Flags can be configured when building this ROM
+# _ORIGINALINTRO restores the original copyright intro of RED/BLUE. Disabled by default to still give credit to Mateo/Luna.
+# _SNOW builds a ROM with the snowy tileset.
+# _HARD creates a ROM with HARD difficulty.
+
+$(pokered_obj):  RGBASMFLAGS += -D _RED
+$(pokeblue_obj): RGBASMFLAGS += -D _BLUE
+
+# The dep rules have to be explicit or else missing files won't be reported.
+# As a side effect, they're evaluated immediately instead of when the rule is invoked.
+# It doesn't look like $(shell) can be deferred so there might not be a better way.
+define DEP
+$1: $2 $$(shell tools/scan_includes $2) | rgbdscheck.o
+	$$(RGBASM) $$(RGBASMFLAGS) -o $$@ $$<
+endef
 
 # Build tools when building the rom.
 # This has to happen before the rules are processed, since that's when scan_includes is run.
 ifeq (,$(filter clean tools,$(MAKECMDGOALS)))
 $(info $(shell $(MAKE) -C tools))
+
+# Dependencies for objects (drop _red and _blue and etc from asm file basenames)
+$(foreach obj, $(pokered_obj), $(eval $(call DEP,$(obj),$(obj:_red.o=.asm))))
+$(foreach obj, $(pokeblue_obj), $(eval $(call DEP,$(obj),$(obj:_blue.o=.asm))))
+
 endif
-
-
 
 %.asm: ;
 
-%_red.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
-$(pokered_obj): %_red.o: %.asm $$(dep)
-	$(RGBDS_DIR)rgbasm -D _RED -h -o $@ $*.asm
+# %_red.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
+# $(pokered_obj): %_red.o: %.asm $$(dep)
+# 	$(RGBDS_DIR)rgbasm -D _RED -h -o $@ $*.asm
 
-%_blue.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
-$(pokeblue_obj): %_blue.o: %.asm $$(dep)
-	$(RGBDS_DIR)rgbasm -D _BLUE -h -o $@ $*.asm
+# %_blue.o: dep = $(shell tools/scan_includes $(@D)/$*.asm)
+# $(pokeblue_obj): %_blue.o: %.asm $$(dep)
+# 	$(RGBDS_DIR)rgbasm -D _BLUE -h -o $@ $*.asm
 
 pokered_opt  = -Cjv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
 pokeblue_opt = -Cjv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
