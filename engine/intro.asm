@@ -304,7 +304,7 @@ LoadIntroGraphics:
 PlayShootingStar:
 ; load Meowth palette to screen and call Mateo Presents instead of Nintendo Creatures Gamefreak
 IF DEF(_ORIGINALINTRO)
-	ld b, SET_PAL_POKEMON_WHOLE_SCREEN
+	ld b, SET_PAL_GAME_FREAK_INTRO
 	call RunPaletteCommand
 	callba LoadCopyrightAndTextBoxTiles
 	ld a, %11100100
