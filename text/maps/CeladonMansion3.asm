@@ -11,24 +11,24 @@ _GraphicArtistText::
 
 _WriterText::
 	text "I wrote the story!"
-	line "Isn't Erika cute?"
+	line "Isn't ERIKA cute?"
 
-	para "I like Misty a"
+	para "I like MISTY a"
 	line "lot too!"
 
-	para "Oh, and Sabrina,"
+	para "Oh, and SABRINA,"
 	line "I like her!"
 	done
 
 _GameDesignerText::
 	text "Hiya, I'm the"
-	line "Game Designer!"
+	line "GAME DESIGNER!"
 
 	para "You should come"
 	line "back here once"
 	cont "you've caught at"
 	cont "least 150 kinds"
-	cont "of #mon."
+	cont "of #MON."
 
 	para "I'll give you"
 	line "something I think"
@@ -36,14 +36,14 @@ _GameDesignerText::
 	
 	para "No, don't worry,"
 	line "it isn't some"
-	cont "useless Diploma!"	
+	cont "useless DIPLOMA!"	
 	done
 	
 _GameDesignerGiveTicketText::
 	text "Ah! I see you've"
 	line "caught at least"
 	cont "150 kinds of"
-	cont "#mon now."
+	cont "#MON now."
 	
 	para "I want you to"
 	line "have this."
@@ -51,18 +51,18 @@ _GameDesignerGiveTicketText::
 	
 _ReceivedEonTicketText::
 	text "[PLAYER] received"
-	line "the Eon Ticket!"
+	line "the EON TICKET!"
 	done
 
 _GameDesignerAlreadyGivenText::
-	text "The Eon Ticket"
+	text "The EON TICKET"
 	line "allows you to"
-	cont "visit Southern"
-	cont "Island in Hoenn."
+	cont "visit SOUTHERN"
+	cont "ISLAND in HOENN."
 	
 	para "You can take the"
-	line "Seagallop Ferry"
-	cont "in Vermilion to"
+	line "SEAGALLOP FERRY"
+	cont "in VERMILION to"
 	cont "get there."
 	done
 

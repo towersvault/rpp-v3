@@ -1,11 +1,11 @@
 _MoveTutorWelcomeText::
 	text "Hello, I am a"
-	line "Move Tutor."
+	line "MOVE TUTOR."
 	
 	para "For only ¥500, I"
 	line "can teach a move"
 	cont "to one of your"
-	cont "#mon."
+	cont "#MON."
 	prompt
 	
 _TeachTutorMoveText::
@@ -13,7 +13,7 @@ _TeachTutorMoveText::
 	line "@"
 	TX_RAM wcf4b
 	db $0
-	cont "to a #mon?"
+	cont "to a #MON?"
 	done
 
 _MoveTutorComeAgainText::
@@ -22,7 +22,7 @@ _MoveTutorComeAgainText::
 
 _MonCannotLearnTutorMoveText::
 	text "Oh, I can't teach"
-	line "that #mon"
+	line "that #MON"
 	cont "@"
 	TX_RAM wcf4b
 	text "."

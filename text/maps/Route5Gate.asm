@@ -23,7 +23,7 @@ _SaffronGateText_1dff1::
 	cont "..."
 	cont "Gulp..."
 	cont "If you want to go"
-	cont "to Saffron City..."
+	cont "to SAFFRON CITY..."
 	cont "..."
 	cont "You can go on"
 	cont "through. I'll"

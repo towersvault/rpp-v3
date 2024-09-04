@@ -1,5 +1,5 @@
 _KogaBeforeBattleText::
-	text "Koga: Fwahahaha!"
+	text "KOGA: Fwahahaha!"
 
 	para "A mere child like"
 	line "you dares to"
@@ -22,5 +22,5 @@ _KogaAfterBattleText::
 	cont "your worth!"
 
 	para "Here! Take the"
-	line "SoulBadge!"
+	line "SOULBADGE!"
 	prompt

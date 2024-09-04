@@ -26,19 +26,19 @@ _Museum1FText_5c22e::
 
 	para "Oh, whatever!"
 	line "Do you know what"
-	cont "Amber is?"
+	cont "AMBER is?"
 	done
 
 _Museum1FText_5c233::
 	text "There's a lab"
 	line "somewhere trying"
 	cont "to resurrect"
-	cont "ancient #mon"
-	cont "from Amber."
+	cont "ancient #MON"
+	cont "from AMBER."
 	done
 
 _Museum1FText_5c238::
-	text "Amber is fossil-"
+	text "AMBER is fossil-"
 	line "ized tree sap."
 	done
 
@@ -61,11 +61,11 @@ _Museum1FText_5c251::
 _Museum1FText_5c28e::
 	text "Ssh! I think that"
 	line "this chunk of"
-	cont "Amber contains"
-	cont "#mon DNA!"
+	cont "AMBER contains"
+	cont "#MON DNA!"
 
 	para "It would be great"
-	line "if #mon could"
+	line "if #MON could"
 	cont "be resurrected"
 	cont "from it!"
 
@@ -76,17 +76,17 @@ _Museum1FText_5c28e::
 	line "to ask!"
 
 	para "Take this to a"
-	line "#mon Lab and"
+	line "#MON LAB and"
 	cont "get it examined!"
 	prompt
 
 _ReceivedOldAmberText::
 	text "[PLAYER] received"
-	line "Old Amber!@@"
+	line "OLD AMBER!@@"
 
 _Museum1FText_5c299::
-	text "Ssh! Get the Old"
-	line "Amber checked!"
+	text "Ssh! Get the OLD"
+	line "AMBER checked!"
 	done
 
 _Museum1FText_5c29e::
@@ -98,10 +98,10 @@ _Museum1FText_5c2ad::
 	text "We are proud of 2"
 	line "fossils of very"
 	cont "rare, prehistoric"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 _Museum1FText_5c2bc::
-	text "The Amber is"
+	text "The AMBER is"
 	line "clear and gold!"
 	done

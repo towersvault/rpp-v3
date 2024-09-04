@@ -182,7 +182,7 @@ MoveTutorNotEnoughMoneyText:
 	db "@"
 
 ElementalHyperbeamsText:
-	db   "Frenzy Plant"
-	next "Blast Burn"
-	next "Hydro Cannon"
-	next "Cancel@"
+	db   "FRENZY PLANT"
+	next "BLAST BURN"
+	next "HYDRO CANNON"
+	next "CANCEL@"

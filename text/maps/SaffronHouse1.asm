@@ -8,17 +8,17 @@ _SaffronHouse1Text1::
 	done
 
 _SaffronHouse1Text2::
-	text "Pidgey: Kurukkoo!@@"
+	text "PIDGEY: Kurukkoo!@@"
 
 _SaffronHouse1Text3::
-	text "The Copycat is"
+	text "The COPYCAT is"
 	line "cute! I'm getting"
-	cont "her a # Doll!"
+	cont "her a # DOLL!"
 	done
 
 _SaffronHouse1Text4::
 	text "I was given a PP"
-	line "Up as a gift."
+	line "UP as a gift."
 
 	para "It's used for"
 	line "increasing the PP"

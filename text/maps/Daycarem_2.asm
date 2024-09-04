@@ -8,23 +8,23 @@ _DayCareComeAgainText::
 
 _DayCareNoRoomForMonText::
 	text "You have no room"
-	line "for this #mon!"
+	line "for this #MON!"
 	done
 
 _DayCareOnlyHaveOneMonText::
 	text "You only have one"
-	line "#mon with you."
+	line "#MON with you."
 	done
 
 _DayCareCantAcceptMonWithHMText::
 	text "I can't accept a"
-	line "#mon that"
+	line "#MON that"
 	cont "knows an HM move."
 	done
 
 _DayCareHeresYourMonText::
 	text "Thank you! Here's"
-	line "your #mon!"
+	line "your #MON!"
 	prompt
 
 _DayCareNotEnoughMoneyText::
@@ -34,15 +34,15 @@ _DayCareNotEnoughMoneyText::
 
 _DayCareMText2::
     text "Hello there! I'm"
-    line "the Day Care Man!"
+    line "the DAY CARE MAN!"
     
     para "Come back and see"
     line "me another time."
     done
     
 _DayCareMText3::
-    text "It's a Ditto that"
+    text "It's a DITTO that"
     line "belongs to the"
-    cont "Day Care Man."
+    cont "DAY CARE MAN."
     done
     

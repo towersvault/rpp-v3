@@ -1,21 +1,21 @@
 _VermilionHouse1Text1::
 	text "I'm getting my"
-	line "Pidgey to fly a"
-	cont "letter to Saffron"
+	line "PIDGEY to fly a"
+	cont "letter to SAFFRON"
 	cont "in the north!"
 	done
 
 _VermilionHouse1Text2::
-	text "Pidgey: Kurukkoo!@@"
+	text "PIDGEY: Kurukkoo!@@"
 
 _VermilionHouse1Text3::
-	text "Dear Pippi, I hope"
+	text "Dear PIPPI, I hope"
 	line "to see you soon."
 
-	para "I heard Saffron"
+	para "I heard SAFFRON"
 	line "has problems with"
-	cont "Team Rocket."
+	cont "TEAM ROCKET."
 
-	para "Vermilion appears"
+	para "VERMILION appears"
 	line "to be safe."
 	done

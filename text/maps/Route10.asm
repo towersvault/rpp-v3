@@ -1,6 +1,6 @@
 _Route10BattleText1::
 	text "Wow, are you a"
-	line "# Maniac too?"
+	line "# MANIAC too?"
 	cont "Want to see my"
 	cont "collection?"
 	done
@@ -12,7 +12,7 @@ _Route10EndBattleText1::
 
 _Route10AfterBattleText1::
 	text "I have more rare"
-	line "#mon at home!"
+	line "#MON at home!"
 	done
 
 _Route10BattleText2::
@@ -34,12 +34,12 @@ _Route10AfterBattleText2::
 
 _Route10BattleText3::
 	text "Hi, kid, want to"
-	line "see my #mon?"
+	line "see my #MON?"
 	done
 
 _Route10EndBattleText3::
 	text "Oh no!"
-	line "My #mon!"
+	line "My #MON!"
 	prompt
 
 _Route10AfterBattleText3::
@@ -49,7 +49,7 @@ _Route10AfterBattleText3::
 
 _Route10BattleText4::
 	text "I've been to a"
-	line "#mon Gym a few"
+	line "#MON GYM a few"
 	cont "times. But, I"
 	cont "lost each time."
 	done
@@ -61,7 +61,7 @@ _Route10EndBattleText4::
 
 _Route10AfterBattleText4::
 	text "I noticed some"
-	line "# Maniacs"
+	line "# MANIACs"
 	cont "prowling around."
 	done
 
@@ -92,7 +92,7 @@ _Route10EndBattleText6::
 	prompt
 
 _Route10AfterBattleText6::
-	text "The #mon here"
+	text "The #MON here"
 	line "are so chunky!"
 	cont "There should be a"
 	cont "pink one with a"
@@ -101,9 +101,9 @@ _Route10AfterBattleText6::
 
 _Route10Text9::
 _Route10Text7::
-	text "Rock Tunnel"
+	text "ROCK TUNNEL"
 	done
 
 _Route10Text10::
-	text "Power Plant"
+	text "POWER PLANT"
 	done

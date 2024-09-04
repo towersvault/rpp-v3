@@ -1,45 +1,45 @@
 _LavenderHouse1Text_1d8d1::
-	text "That's odd, Mr.Fuji"
+	text "That's odd, MR.FUJI"
 	line "isn't here."
 	cont "Where'd he go?"
 	done
 
 _LavenderHouse1Text_1d8d6::
-	text "Mr.Fuji had been"
+	text "MR.FUJI had been"
 	line "praying alone for"
-	cont "Cubone's mother."
+	cont "CUBONE's mother."
 	done
 
 _LavenderHouse1Text_1d8f4::
 	text "This is really"
-	line "Mr. Fuji's house."
+	line "MR. FUJI's house."
 
 	para "He's really kind!"
 
 	para "He looks after"
 	line "abandoned and"
-	cont "orphaned #mon!"
+	cont "orphaned #MON!"
 	done
 
 _LavenderHouse1Text_1d8f9::
 	text "It's so warm!"
-	line "#mon are so"
+	line "#MON are so"
 	cont "nice to hug!"
 	done
 
 _LavenderHouse1Text3::
-	text "Psyduck: Gwappa!@@"
+	text "PSYDUCK: Gwappa!@@"
 
 _LavenderHouse1Text4::
-	text "Nidorino: Gaoo!@@"
+	text "NIDORINO: Gaoo!@@"
 
 _LavenderHouse1Text_1d94c::
-	text "Mr.Fuji: [PLAYER]."
+	text "MR.FUJI: [PLAYER]."
 
-	para "Your #dex quest"
+	para "Your #DEX quest"
 	line "may fail without"
 	cont "love for your"
-	cont "#mon."
+	cont "#MON."
 
 	para "I think this may"
 	line "help your quest."
@@ -54,12 +54,12 @@ _ReceivedFluteText::
 _FluteExplanationText::
 	db $0
 	para "Upon hearing #"
-	line "Flute, sleeping"
-	cont "#mon will"
+	line "FLUTE, sleeping"
+	cont "#MON will"
 	cont "spring awake."
 
 	para "It works on all"
-	line "sleeping #mon."
+	line "sleeping #MON."
 	done
 
 _FluteNoRoomText::
@@ -68,12 +68,12 @@ _FluteNoRoomText::
 	done
 
 _MrFujiAfterFluteText::
-	text "Mr.Fuji: Has my"
-	line "Flute helped you?"
+	text "MR.FUJI: Has my"
+	line "FLUTE helped you?"
 	done
 
 _LavenderHouse1Text6::
-	text "#mon Monthly"
+	text "#MON Monthly"
 	line "Grand Prize"
 	cont "Drawing!"
 

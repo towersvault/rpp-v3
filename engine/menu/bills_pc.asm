@@ -85,12 +85,12 @@ DisplayPCMainMenu::
 	ld [H_AUTOBGTRANSFERENABLED], a
 	ret
 
-SomeonesPCText:   db "Someone's PC@"
-BillsPCText:      db "Bill's PC@"
+SomeonesPCText:   db "SOMEONE's PC@"
+BillsPCText:      db "BILL's PC@"
 PlayersPCText:    db "'s PC@"
-OaksPCText:       db "Prof. Oak's PC@"
-PKMNLeaguePCText: db $4a, "League@"
-LogOffPCText:     db "Log off@"
+OaksPCText:       db "PROF. OAK's PC@"
+PKMNLeaguePCText: db $4a, "LEAGUE@"
+LogOffPCText:     db "LOG OFF@"
 
 BillsPC_::
 	ld hl, wd730
@@ -343,11 +343,11 @@ DisplayMonListMenu:
 	ret
 
 BillsPCMenuText:
-	db   "Withdraw ", $4a
-	next "Deposit ",  $4a
-	next "Release ",  $4a
-	next "Change Box"
-	next "Back"
+	db   "WITHDRAW ", $4a
+	next "DEPOSIT ",  $4a
+	next "RELEASE ",  $4a
+	next "CHANGE BOX"
+	next "BACK"
 	db "@"
 
 BoxNoPCText:
@@ -455,11 +455,11 @@ DisplayDepositWithdrawMenu:
 	call LoadGBPal
 	jr .loop
 
-DepositPCText:  db "Deposit@"
-WithdrawPCText: db "Withdraw@"
+DepositPCText:  db "DEPOSIT@"
+WithdrawPCText: db "WITHDRAW@"
 StatsCancelPCText:
-	db   "Stats"
-	next "Cancel@"
+	db   "STATS"
+	next "CANCEL@"
 
 SwitchOnText:
 	TX_FAR _SwitchOnText

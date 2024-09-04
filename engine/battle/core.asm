@@ -164,7 +164,7 @@ SlidePlayerAndEnemySilhouettesOnScreen:
 	ld [rOBP0], a
 	ld [rOBP1], a
 	; HAX: LCD is enabled far later than in vanilla game. This prevents flickering
-	; when entering battle. Also had to remove "delay" calls above.
+	; when entering battle. Also had to remove "DELAY" calls above.
 	call EnableLCD
 .slideSilhouettesLoop ; slide silhouettes of the player's pic and the enemy's pic onto the screen
 	ld h, b
@@ -1152,7 +1152,7 @@ RemoveFaintedPlayerMon:
 	ld b, FLAG_RESET
 	predef FlagActionPredef ; clear gain exp flag for fainted mon
 	ld hl, wEnemyBattleStatus1
-	res 2, [hl]   ; reset "attacking multiple times" flag
+	res 2, [hl]   ; reset "ATTACKING MULTIPLE TIMES" flag
 	ld a, [wDanger]
 	bit 7, a      ; skip sound flag (red bar (?))
 	jr z, .skipWaitForSound
@@ -1178,7 +1178,7 @@ RemoveFaintedPlayerMon:
 ; When the player mon and enemy mon faint at the same time and the fact that the
 ; enemy mon has fainted is detected first (e.g. when the player mon knocks out
 ; the enemy mon using a move with recoil and faints due to the recoil), don't
-; play the player mon's cry or show the "[player mon] fainted!" message.
+; play the player mon's cry or show the "[PLAYER MON] FAINTED!" message.
 	ld a, [wInHandlePlayerMonFainted]
 	and a ; was this called by HandleEnemyMonFainted?
 	ret z ; if so, return
@@ -2222,7 +2222,7 @@ DisplayBattleMenu:
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "Old Man@"
+	db "OLD MAN@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -2856,7 +2856,7 @@ MoveDisabledText:
 	db "@"
 
 WhichTechniqueString:
-	db "Which technique?@"
+	db "WHICH TECHNIQUE?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -3090,16 +3090,16 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "Disabled!@"
+	db "DISABLED!@"
 
 OtherText:
-	db "Status@"
+	db "STATUS@"
 
 PhysicalText: ; Added for PS Split
-	db "Physical@"
+	db "PHYSICAL@"
 
 SpecialText: ; added for PS Split
-	db "Special@"
+	db "SPECIAL@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
@@ -5254,7 +5254,7 @@ HandleBuildingRage:
 ; sets zero flag on failure and unsets zero flag on success
 MirrorMoveCopyMove:
 ; Mirror Move makes use of ccf1 (wPlayerUsedMove) and ccf2 (wEnemyUsedMove) addresses,
-; which are mainly used to print the "[Pokemon] used [Move]" text.
+; which are mainly used to print the "[POKEMON] USED [MOVE]" text.
 ; Both are set to 0 whenever a new Pokemon is sent out
 ; ccf1 is also set to 0 whenever the player is fast asleep or frozen solid.
 ; ccf2 is also set to 0 whenever the enemy is fast asleep or frozen solid.
@@ -5431,19 +5431,19 @@ AdjustDamageForMoveType:
 	ld b,a
 	ld hl,TypeEffects
 .loop
-	ld a,[hli] ; a = "attacking type" of the current type pair
+	ld a,[hli] ; a = "ATTACKING TYPE" of the current type pair
 	cp a,$ff
 	jr z, StoreDamage
-	cp b ; does move type match "attacking type"?
+	cp b ; does move type match "ATTACKING TYPE"?
 	jr nz,.nextTypePair
-	ld a,[hl] ; a = "defending type" of the current type pair
-	cp d ; does type 1 of defender match "defending type"?
+	ld a,[hl] ; a = "DEFENDING TYPE" of the current type pair
+	cp d ; does type 1 of defender match "DEFENDING TYPE"?
 	jr z,.matchingPairFound
-	cp e ; does type 2 of defender match "defending type"?
+	cp e ; does type 2 of defender match "DEFENDING TYPE"?
 	jr z,.matchingPairFound
 	jr .nextTypePair
 .matchingPairFound
-; if the move type matches the "attacking type" and one of the defender's types matches the "defending type"
+; if the move type matches the "ATTACKING TYPE" and one of the defender's types matches the "DEFENDING TYPE"
 	push hl
 	push bc
 	inc hl
@@ -5710,7 +5710,7 @@ CalcHitChance:
 .next
 	ld a,$0e
 	sub c
-	ld c,a ; c = 14 - EVASIONMOD (this "reflects" the value over 7, so that an increase in the target's evasion
+	ld c,a ; c = 14 - EVASIONMOD (this "REFLECTS" the value over 7, so that an increase in the target's evasion
 	       ; decreases the hit chance instead of increasing the hit chance)
 ; zero the high bytes of the multiplicand
 	xor a
@@ -7112,13 +7112,13 @@ InitWildBattle:
 	ld hl, wEnemyMonNick  ; set name to "GHOST"
 	ld a, "G"
 	ld [hli], a
-	ld a, "h"
+	ld a, "H"
 	ld [hli], a
-	ld a, "o"
+	ld a, "O"
 	ld [hli], a
-	ld a, "s"
+	ld a, "S"
 	ld [hli], a
-	ld a, "t"
+	ld a, "T"
 	ld [hli], a
 	ld [hl], "@"
 	ld a, [wcf91]
@@ -7208,7 +7208,7 @@ ResetCryModifiers:
 	ld [wTempoModifier], a
 	jp PlaySound
 
-; animates the mon "growing" out of the pokeball
+; animates the mon "GROWING" out of the pokeball
 AnimateSendingOutMon:
 	ld a, [wPredefRegisters]
 	ld h, a
@@ -7781,7 +7781,7 @@ CheckDefrost:
 	ld a, [wPlayerMoveType]
 	sub a, FIRE
 	ret nz ; return if type of move used isn't fire
-	ld [wEnemyMonStatus], a ; set opponent status to 00 ["defrost" a frozen monster]
+	ld [wEnemyMonStatus], a ; set opponent status to 00 ["DEFROST" a frozen monster]
 	ld hl, wEnemyMon1Status
 	ld a, [wEnemyMonPartyPos]
 	ld bc, wEnemyMon2 - wEnemyMon1
@@ -8232,12 +8232,12 @@ PrintStatText:
 	jp CopyData
 
 StatsTextStrings:
-	db "Attack@"
-	db "Defense@"
-	db "Speed@"
-	db "Special@"
-	db "Accuracy@"
-	db "Evasion@"
+	db "ATTACK@"
+	db "DEFENSE@"
+	db "SPEED@"
+	db "SPECIAL@"
+	db "ACCURACY@"
+	db "EVASION@"
 
 StatModifierRatios:
 ; first byte is numerator, second byte is denominator
@@ -8692,7 +8692,7 @@ RageEffect:
 	jr z, .player
 	ld hl, wEnemyBattleStatus2
 .player
-	set UsingRage, [hl] ; mon is now in "rage" mode
+	set UsingRage, [hl] ; mon is now in "RAGE" mode
 	ret
 
 MimicEffect:

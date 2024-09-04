@@ -1,7 +1,7 @@
 _RocketHideout2BattleText2::
-	text "Boss said you can"
-	line "see Ghosts with"
-	cont "the Silph Scope!"
+	text "BOSS said you can"
+	line "see GHOSTs with"
+	cont "the SILPH SCOPE!"
 	done
 
 _RocketHideout2EndBattleText2::
@@ -9,8 +9,8 @@ _RocketHideout2EndBattleText2::
 	prompt
 
 _RocketHideout2AfterBattleTxt2::
-	text "The Team Rocket"
+	text "The TEAM ROCKET"
 	line "HQ has 4 basement"
 	cont "floors. Can you"
-	cont "reach the Boss?"
+	cont "reach the BOSS?"
 	done

@@ -1,12 +1,12 @@
 _DayCareIntroText::
-	text "We run a Day Care."
+	text "We run a DAY CARE."
 	line "Would you like us"
 	cont "to raise one of"
-	cont "your #mon?"
+	cont "your #MON?"
 	done
 
 _DayCareWhichMonText::
-	text "Which #mon"
+	text "Which #MON"
 	line "should we raise?"
 	prompt
 
@@ -42,7 +42,7 @@ _DayCareOweMoneyText::
 	TX_BCD wDayCareTotalCost, $c2
 	db $0
 	line "for the return"
-	cont "of this #mon."
+	cont "of this #MON."
 	done
 
 _DayCareGotMonBackText::

@@ -1,7 +1,7 @@
 _Route19BattleText1::
 	text "The guy in that"
 	line "house taught his"
-	cont "Pikachu to Surf!"
+	cont "PIKACHU to SURF!"
 	done
 
 _Route19EndBattleText1::
@@ -19,7 +19,7 @@ _Route19BattleText2::
 	line "to hit the waves?"
 	
 	para "I was headed to"
-	line "the Beach House."
+	line "the BEACH HOUSE."
 	done
 
 _Route19EndBattleText2::
@@ -28,7 +28,7 @@ _Route19EndBattleText2::
 
 _Route19AfterBattleText2::
 	text "Watch out for"
-	line "Tentacool!"
+	line "TENTACOOL!"
 	done
 
 _Route19BattleText3::
@@ -41,7 +41,7 @@ _Route19EndBattleText3::
 	prompt
 
 _Route19AfterBattleText3::
-	text "I can beat #mon"
+	text "I can beat #MON"
 	line "at swimming!"
 	done
 
@@ -61,7 +61,7 @@ _Route19AfterBattleText4::
 
 _Route19BattleText5::
 	text "I tried diving"
-	line "for #mon, but"
+	line "for #MON, but"
 	cont "it was a no go!"
 	done
 
@@ -71,7 +71,7 @@ _Route19EndBattleText5::
 
 _Route19AfterBattleText5::
 	text "You have to fish"
-	line "for sea #mon!"
+	line "for sea #MON!"
 	done
 
 _Route19BattleText6::
@@ -103,7 +103,7 @@ _Route19EndBattleText7::
 _Route19AfterBattleText7::
 	text "It's still a long"
 	line "way to go to"
-	cont "Seafoam Islands."
+	cont "SEAFOAM ISLANDS."
 	done
 
 _Route19BattleText8::
@@ -118,7 +118,7 @@ _Route19EndBattleText8::
 _Route19AfterBattleText8::
 	text "My boy friend"
 	line "wanted to swim to"
-	cont "Seafoam Islands."
+	cont "SEAFOAM ISLANDS."
 	done
 
 _Route19BattleText9::
@@ -146,13 +146,13 @@ _Route19EndBattleText10::
 	prompt
 
 _Route19AfterBattleText10::
-	text "Lapras is so big,"
+	text "LAPRAS is so big,"
 	line "it must keep you"
 	cont "dry on water."
 	done
 
 _Route19Text11::
-	text "Sea Route 19"
-	line "Fuchsia City -"
-	cont "Seafoam Islands"
+	text "SEA ROUTE 19"
+	line "FUCHSIA CITY -"
+	cont "SEAFOAM ISLANDS"
 	done

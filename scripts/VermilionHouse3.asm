@@ -14,4 +14,4 @@ VermilionHouse3Text1:
 	jp TextScriptEnd
 
 Trader4Name:
-	db "Jenny@"
+	db "JENNY@"

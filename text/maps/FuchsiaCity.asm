@@ -1,30 +1,30 @@
 _FuchsiaCityText1::
 	text "Did you try the"
-	line "Safari Game? Some"
-	cont "#mon can only"
+	line "SAFARI GAME? Some"
+	cont "#MON can only"
 	cont "be caught there."
 	done
 
 _FuchsiaCityText2::
-	text "Safari Zone has a"
+	text "SAFARI ZONE has a"
 	line "zoo in front of"
 	cont "the entrance."
 
 	para "Out back is the"
-	line "Safari Game for"
-	cont "catching #mon."
+	line "SAFARI GAME for"
+	cont "catching #MON."
 	done
 
 _FuchsiaCityText3::
-	text "Erik: Where's"
-	line "Sara? I said I'd"
+	text "ERIK: Where's"
+	line "SARA? I said I'd"
 	cont "meet her here."
 	done
 
 _FuchsiaCityText4::
 	text "That item ball in"
 	line "there is really a"
-	cont "#mon."
+	cont "#MON."
 	done
 
 _FuchsiaCityText5::
@@ -32,85 +32,85 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "Fuchsia City"
+	text "FUCHSIA CITY"
 	
 	para "Behold! It's"
 	line "passion pink!"
 	done
 
 _FuchsiaCityText13::
-	text "Safari Game"
-	line "#mon-u-Catch!"
+	text "SAFARI GAME"
+	line "#MON-u-Catch!"
 	done
 
 _FuchsiaCityText16::
-	text "Safari Zone"
-	line "Warden's home"
+	text "SAFARI ZONE"
+	line "WARDEN's HOME"
 	done
 
 _FuchsiaCityText17::
-	text "#mon Paradise"
-	line "Safari Zone"
+	text "#MON PARADISE"
+	line "SAFARI ZONE"
 	done
 
 _FuchsiaCityText18::
-	text "Fuchsia City"
-	line "#mon Gym"
-	cont "Leader: Koga"
+	text "FUCHSIA CITY"
+	line "#MON GYM"
+	cont "LEADER: KOGA"
 
 	para "The poisonous"
 	line "ninja master!"
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: Chansey"
+	text "Name: CHANSEY"
 
 	para "Catching one is"
 	line "all up to chance."
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: Voltorb"
+	text "Name: VOLTORB"
 
 	para "The very image of"
-	line "a # Ball."
+	line "a # BALL."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: Kangaskhan"
+	text "Name: KANGASKHAN"
 
-	para "A maternal #mon"
+	para "A maternal #MON"
 	line "that raises its"
 	cont "young in a pouch"
 	cont "on its belly."
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: Slowpoke"
+	text "Name: SLOWPOKE"
 
 	para "Friendly and very"
 	line "slow moving."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "Name: Lapras"
+	text "Name: LAPRAS"
 
 	para "A.K.A. the king"
 	line "of the seas."
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: Omanyte"
+	text "Name: OMANYTE"
 
-	para "A #mon that"
+	para "A #MON that"
 	line "was resurrected"
 	cont "from a fossil."
 	prompt
 
 _FuchsiaCityKabutoText::
-	text "Name: Kabuto"
+	text "Name: KABUTO"
 
-	para "A #mon that"
+	para "A #MON that"
 	line "was resurrected"
 	cont "from a fossil."
 	prompt

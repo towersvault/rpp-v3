@@ -1,14 +1,14 @@
 _PewterPokecenterText2::
 	text "What!?"
 
-	para "Team Rocket is"
-	line "at Mt. Moon? Huh?"
+	para "TEAM ROCKET is"
+	line "at MT. MOON? Huh?"
 	cont "I'm on the phone!"
 
 	para "Scram!"
 	done
 
 _PewterJigglypuffText::
-	text "Jigglypuff: Puu"
+	text "JIGGLYPUFF: Puu"
 	line "pupuu!"
 	done

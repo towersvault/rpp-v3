@@ -193,16 +193,16 @@ DayCareManText1:
 	TX_RAM wDayCareMonName
 	db $0
 	line "has been playing"
-	cont "with my Ditto."
+	cont "with my DITTO."
 	prompt
 	db "@"
 	
 DayCareManText2:
 	text "It looks like they"
-	line "had an Egg!"
+	line "had an EGG!"
 	
 	para "Do you want the"
-	line "#mon that"
+	line "#MON that"
 	cont "hatched from it?@@"
 	
 DayCareManText3:
@@ -220,8 +220,8 @@ DayCareManText4:
 	
 DayCareManText5:
 	text "I don't think that"
-	line "#mon can breed"
-	cont "with my Ditto,"
+	line "#MON can breed"
+	cont "with my DITTO,"
 	cont "though.@@"
 	
 DayCareManText6:
@@ -235,7 +235,7 @@ DayCareManText6:
 	
 DayCareManText7:
 	text "It looks like they"
-	line "had an Egg!"
+	line "had an EGG!"
 	
 	para "You don't seem to"
 	line "have any room for"

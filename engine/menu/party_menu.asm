@@ -135,9 +135,9 @@ RedrawPartyMenu_:
 	inc c
 	jp .loop
 .ableToLearnMoveText
-	db "Able@"
+	db "ABLE@"
 .notAbleToLearnMoveText
-	db "Not able@"
+	db "NOT ABLE@"
 .evolutionStoneMenu
 	push hl
 	ld hl,EvosMovesPointerTable

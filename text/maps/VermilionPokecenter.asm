@@ -1,18 +1,18 @@
 _VermilionPokecenterText2::
 	text "Even if they are"
 	line "the same level,"
-	cont "#mon can have"
+	cont "#MON can have"
 	cont "very different"
 	cont "abilities."
 
-	para "A #mon raised"
+	para "A #MON raised"
 	line "by a trainer is"
 	cont "stronger than one"
 	cont "in the wild."
 	done
 
 _VermilionPokecenterText3::
-	text "My #mon was"
+	text "My #MON was"
 	line "poisoned! It"
 	cont "fainted while we"
 	cont "were walking!"

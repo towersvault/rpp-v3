@@ -92,25 +92,25 @@ BadgeTextPointers:
 	dw EarthBadgeText
 
 EarthBadgeText:
-	db "EarthBadge@"
+	db "EARTHBADGE@"
 
 VolcanoBadgeText:
-	db "VolcanoBadge@"
+	db "VOLCANOBADGE@"
 
 MarshBadgeText:
-	db "MarshBadge@"
+	db "MARSHBADGE@"
 
 SoulBadgeText:
-	db "SoulBadge@"
+	db "SOULBADGE@"
 
 RainbowBadgeText:
-	db "RainbowBadge@"
+	db "RAINBOWBADGE@"
 
 ThunderBadgeText:
-	db "ThunderBadge@"
+	db "THUNDERBADGE@"
 
 CascadeBadgeText:
-	db "CascadeBadge@"
+	db "CASCADEBADGE@"
 
 Route23Script_512d8:
 	ld a, $1

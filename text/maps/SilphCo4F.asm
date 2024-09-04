@@ -4,14 +4,14 @@ _SilphCo4Text_19de0::
 	done
 
 _SilphCo4Text_19de5::
-	text "Huh? Team Rocket"
+	text "Huh? TEAM ROCKET"
 	line "is gone?"
 	done
 
 _SilphCo4BattleText2::
-	text "Team Rocket has"
+	text "TEAM ROCKET has"
 	line "taken command of"
-	cont "Silph Co.!"
+	cont "SILPH CO.!"
 	done
 
 _SilphCo4EndBattleText2::
@@ -20,25 +20,25 @@ _SilphCo4EndBattleText2::
 
 _SilphCo4AfterBattleText2::
 	text "Fwahahaha!"
-	line "My Boss has been"
+	line "My BOSS has been"
 	cont "after this place!"
 	done
 
 _SilphCo4BattleText3::
-	text "My #mon are my"
+	text "My #MON are my"
 	line "loyal soldiers!"
 	done
 
 _SilphCo4EndBattleText3::
 	text "Darn!"
-	line "You weak #mon!"
+	line "You weak #MON!"
 	prompt
 
 _SilphCo4AfterBattleText3::
 	text "The doors are"
 	line "electronically"
-	cont "locked! A Card"
-	cont "Key opens them!"
+	cont "locked! A CARD"
+	cont "KEY opens them!"
 	done
 
 _SilphCo4BattleText4::
@@ -51,5 +51,5 @@ _SilphCo4EndBattleText4::
 
 _SilphCo4AfterBattleText4::
 	text "I better tell the"
-	line "Boss on 11F!"
+	line "BOSS on 11F!"
 	done

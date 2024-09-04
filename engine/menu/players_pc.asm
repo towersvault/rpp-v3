@@ -241,10 +241,10 @@ PlayerPCToss:
 	jp .loop
 
 PlayersPCMenuEntries:
-	db   "Withdraw Item"
-	next "Deposit Item"
-	next "Toss Item"
-	next "Log off@"
+	db   "WITHDRAW ITEM"
+	next "DEPOSIT ITEM"
+	next "TOSS ITEM"
+	next "LOG OFF@"
 
 TurnedOnPC2Text:
 	TX_FAR _TurnedOnPC2Text

@@ -1,6 +1,6 @@
 _CinnabarMartText2::
 	text "Don't they have X"
-	line "Attack? It's good"
+	line "ATTACK? It's good"
 	cont "for battles!"
 	done
 

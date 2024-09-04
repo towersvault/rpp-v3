@@ -14,7 +14,7 @@ _SilphCo9Text_5d8ef::
 	done
 
 _SilphCo9BattleText1::
-	text "Your #mon seem"
+	text "Your #MON seem"
 	line "to adore you, kid!"
 	done
 
@@ -29,7 +29,7 @@ _SilphCo9AfterBattleText1::
 	done
 
 _SilphCo9BattleText2::
-	text "Your #mon have"
+	text "Your #MON have"
 	line "weak points! I"
 	cont "can nail them!"
 	done
@@ -47,7 +47,7 @@ _SilphCo9AfterBattleText2::
 
 _SilphCo9BattleText3::
 	text "Looking for the"
-	line "Boss?"
+	line "BOSS?"
 	
 	para "I'm the only boss"
 	line "you'll get to"

@@ -1,35 +1,35 @@
 _MomWakeUpText::
-	text "Mom: Right."
+	text "MOM: Right."
 	line "All boys leave"
 	cont "home someday."
 	cont "It said so on TV."
 
-	para "Prof. Oak, next"
+	para "PROF. OAK, next"
 	line "door, is looking"
 	cont "for you."
 	done
 	
 _MomWakeUpText2::
-	text "Mom: Right."
+	text "MOM: Right."
 	line "All girls leave"
 	cont "home someday."
 	cont "It said so on TV."
 
-	para "Prof. Oak, next"
+	para "PROF. OAK, next"
 	line "door, is looking"
 	cont "for you."
 	done
 
 _MomHealText1::
-	text "Mom: [PLAYER]!"
+	text "MOM: [PLAYER]!"
 	line "You should take a"
 	cont "quick rest."
 	prompt
 
 _MomHealText2::
-	text "Mom: Oh good!"
+	text "MOM: Oh good!"
 	line "You and your"
-	cont "#mon are"
+	cont "#MON are"
 	cont "looking great!"
 	cont "Take care now!"
 	done
@@ -63,8 +63,8 @@ _FridgeText::
 	text "Let's see what's"
 	line "in the fridge..."
 	
-	para "Fresh Water and"
-	line "tasty Lemonade!"
+	para "FRESH WATER and"
+	line "tasty LEMONADE!"
 	done
 	
 _StoveText::

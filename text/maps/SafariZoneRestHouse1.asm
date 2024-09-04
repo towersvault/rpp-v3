@@ -1,11 +1,11 @@
 _SafariZoneRestHouse1Text1::
-	text "Sara: Where did"
+	text "SARA: Where did"
 	line "my boy friend,"
-	cont "Erik, go?"
+	cont "ERIK, go?"
 	done
 
 _SafariZoneRestHouse1Text2::
 	text "I'm catching"
-	line "#mon to take"
+	line "#MON to take"
 	cont "home as gifts!"
 	done

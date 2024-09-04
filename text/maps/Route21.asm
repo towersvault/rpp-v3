@@ -20,20 +20,20 @@ _Route21BattleText2::
 
 _Route21EndBattleText2::
 IF DEF(_HARD)
-	text "Darn Gyarados!"
+	text "Darn GYARADOS!"
 ELSE
-	text "Darn Magikarp!"
+	text "Darn MAGIKARP!"
 ENDC
 	prompt
 
 _Route21AfterBattleText2::
 IF DEF(_HARD)
-	text "Gyarados isn't as"
+	text "GYARADOS isn't as"
 	line "tough as you"
 	cont "might think."
 ELSE
 	text "I seem to only"
-	line "catch Magikarp!"
+	line "catch MAGIKARP!"
 ENDC
 	done
 
@@ -68,7 +68,7 @@ _Route21AfterBattleText4::
 
 _Route21BattleText5::
 	text "I caught all my"
-	line "#mon at sea!"
+	line "#MON at sea!"
 	done
 
 _Route21EndBattleText5::
@@ -78,7 +78,7 @@ _Route21EndBattleText5::
 
 _Route21AfterBattleText5::
 	text "Where'd you catch"
-	line "your #mon?"
+	line "your #MON?"
 	done
 
 _Route21BattleText6::

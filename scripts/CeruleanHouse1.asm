@@ -19,4 +19,4 @@ CeruleanHouse1Text2:
 	jp TextScriptEnd
 
 Trader6Name:
-	db "Ralph@"
+	db "RALPH@"

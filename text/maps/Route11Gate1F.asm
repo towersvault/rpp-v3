@@ -1,12 +1,12 @@
 _Route11GateText1::
 	text "When you catch"
-	line "lots of #mon,"
+	line "lots of #MON,"
 	cont "isn't it hard to"
 	cont "think up names?"
 
-	para "In Lavender Town,"
+	para "In LAVENDER TOWN,"
 	line "there's a man who"
-	cont "rates #mon"
+	cont "rates #MON"
 	cont "nicknames."
 
 	para "He'll help you"

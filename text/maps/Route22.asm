@@ -3,23 +3,23 @@ _Route22RivalBeforeBattleText1::
 	line "[PLAYER]!"
 
 	para "You're going to"
-	line "#mon League?"
+	line "#MON LEAGUE?"
 
 	para "Forget it! You"
 	line "probably don't"
-	cont "have any Badges!"
+	cont "have any BADGEs!"
 
 	para "The guard won't"
 	line "let you through!"
 
 	para "By the way, did"
-	line "your #mon"
+	line "your #MON"
 	cont "get any stronger?"
 	done
 
 _Route22RivalAfterBattleText1::
-	text "I heard #mon"
-	line "League has many"
+	text "I heard #MON"
+	line "LEAGUE has many"
 	cont "tough trainers!"
 
 	para "I have to figure"
@@ -40,7 +40,7 @@ _Route22RivalDefeatedText1::
 _Route22Text_511bc::
 	text "[RIVAL]: What?"
 	line "Why do I have 2"
-	cont "#mon?"
+	cont "#MON?"
 
 	para "You should catch"
 	cont "some more too!"
@@ -53,16 +53,16 @@ _Route22RivalBeforeBattleText2::
 	cont "you here!"
 
 	para "So you're going to"
-	line "#mon League?"
+	line "#MON LEAGUE?"
 
 	para "You collected all"
-	line "the Badges too?"
+	line "the BADGEs too?"
 	cont "That's cool!"
 
 	para "Then I'll whip"
 	line "you, [PLAYER], as"
 	cont "a warmup for"
-	cont "#mon League!"
+	cont "#MON LEAGUE!"
 
 	para "Come on!"
 	done
@@ -70,7 +70,7 @@ _Route22RivalBeforeBattleText2::
 _Route22RivalAfterBattleText2::
 	text "That loosened me"
 	line "up! I'm ready for"
-	cont "#mon League!"
+	cont "#MON LEAGUE!"
 
 	para "[PLAYER], you need"
 	line "more practice!"
@@ -99,6 +99,6 @@ _Route22Text_511d0::
 	prompt
 
 _Route22FrontGateText::
-	text "#mon League"
-	line "Front Gate"
+	text "#MON LEAGUE"
+	line "FRONT GATE"
 	done
