@@ -88,9 +88,9 @@ SuperPalettes:
 
 ; PAL_LOGO2
 	RGB 31,31,31
-	RGB 28,24,0
-	RGB 18,19,18
-	RGB 5,12,22
+	RGB 31,31,0
+	RGB 7,7,25
+	RGB 0,0,17
 
 ; PAL_EXP
 	RGB 31,31,31
