@@ -1,9 +1,9 @@
 _FightingDojoText_5ce8e::
 	text "Grunt!"
 
-	para "I am the Karate"
-	line "Master! I am the"
-	cont "Leader here!"
+	para "I am the KARATE"
+	line "MASTER! I am the"
+	cont "LEADER here!"
 
 	para "You wish to"
 	line "challenge us?"
@@ -28,7 +28,7 @@ _FightingDojoText_5ce98::
 
 	para "In return, I will"
 	line "give you a prized"
-	cont "fighting #mon!"
+	cont "fighting #MON!"
 
 	para "Choose whichever"
 	line "one you like!"
@@ -95,8 +95,8 @@ _FightingDojoBattleText4::
 	text "Hoohah!"
 
 	para "You're trespassing"
-	line "in our Fighting"
-	cont "Dojo!"
+	line "in our FIGHTING"
+	cont "DOJO!"
 	done
 
 _FightingDojoEndBattleText4::
@@ -113,13 +113,13 @@ _FightingDojoAfterBattleText4::
 _WantHitmonleeText::
 	text "You want the"
 	line "hard-kicking"
-	cont "Hitmonlee?"
+	cont "HITMONLEE?"
 	done
 
 _WantHitmonchanText::
 	text "You want the"
 	line "piston-punching"
-	cont "Hitmonchan?"
+	cont "HITMONCHAN?"
 	done
 
 _OtherHitmonText::

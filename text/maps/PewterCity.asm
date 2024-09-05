@@ -1,34 +1,34 @@
 _PewterCityText1::
 	text "It's rumored that"
-	line "Clefairys came"
+	line "CLEFAIRYs came"
 	cont "from the moon!"
 
 	para "They appeared "
-	line "after Moon Stones"
-	cont "fell on Mt. Moon."
+	line "after MOON STONES"
+	cont "fell on MT. MOON."
 	done
 
 _PewterCityText2::
 	text "There aren't many"
-	line "serious #mon"
+	line "serious #MON"
 	cont "trainers here!"
 
 	para "They're all like"
-	line "Bug Catchers,"
-	cont "but Pewter Gym's"
-	cont "Brock is totally"
+	line "BUG CATCHERs,"
+	cont "but PEWTER GYM's"
+	cont "BROCK is totally"
 	cont "into it!"
 	done
 
 _PewterCityText_193f1::
 	text "Did you check out"
-	line "the Museum?"
+	line "the MUSEUM?"
 	done
 
 _PewterCityText_193f6::
 	text "Weren't those"
-	line "fossils from Mt."
-	cont "Moon amazing?"
+	line "fossils from MT."
+	cont "MOON amazing?"
 	done
 
 _PewterCityText_193fb::
@@ -57,14 +57,14 @@ _PewterCityText_1942c::
 	done
 
 _PewterCityText_19431::
-	text "I'm spraying Repel"
-	line "to keep #mon"
+	text "I'm spraying REPEL"
+	line "to keep #MON"
 	cont "out of my garden!"
 	done
 
 _PewterCityText_1945d::
 	text "You're a trainer"
-	line "right? Brock's"
+	line "right? BROCK's"
 	cont "looking for new"
 	cont "challengers!"
 	cont "Follow me!"
@@ -73,45 +73,45 @@ _PewterCityText_1945d::
 _PewterCityText14::
 	text "If you have the"
 	line "right stuff, go"
-	cont "take on Brock!"
+	cont "take on BROCK!"
 	done
 
 _PewterCityText6::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
-	para "Any #mon that"
+	para "Any #MON that"
 	line "takes part in"
 	cont "battle, however"
-	cont "short, earns Exp!"
+	cont "short, earns EXP!"
 	done
 
 _PewterCityText7::
-	text "Notice!"
+	text "NOTICE!"
 
 	para "Thieves have been"
-	line "stealing #mon"
-	cont "fossils at Mt."
-	cont "Moon! Please call"
-	cont "Pewter Police"
+	line "stealing #MON"
+	cont "fossils at MT."
+	cont "MOON! Please call"
+	cont "PEWTER POLICE"
 	cont "with any info!"
 	done
 
 _PewterCityText10::
-	text "Pewter Museum"
-	line "of Science"
+	text "PEWTER MUSEUM"
+	line "OF SCIENCE"
 	done
 
 _PewterCityText11::
-	text "Pewter City"
-	line "#mon Gym"
-	cont "Leader: Brock"
+	text "PEWTER CITY"
+	line "#MON GYM"
+	cont "LEADER: BROCK"
 
 	para "The rock solid"
-	line "#mon trainer!"
+	line "#MON trainer!"
 	done
 
 _PewterCityText12::
-	text "Pewter City"
+	text "PEWTER CITY"
 	
 	para "A stone gray"
 	line "city"

@@ -3,18 +3,18 @@ _ViridianForestText1::
 	line "some friends!"
 
 	para "They're out for"
-	line "#mon fights!"
+	line "#MON fights!"
 	done
 
 _ViridianForestBattleText1::
 	text "Hey! You have"
-	line "#mon! Come on!"
+	line "#MON! Come on!"
 	cont "Let's battle 'em!"
 	done
 
 _ViridianForestEndBattleText1::
 	text "No!"
-	line "Caterpie can't"
+	line "CATERPIE can't"
 	cont "cut it!"
 	prompt
 
@@ -26,13 +26,13 @@ _ViridianFrstAfterBattleText1::
 _ViridianForestBattleText2::
 	text "Yo! You can't jam"
 	line "out if you're a"
-	cont "#mon trainer!"
+	cont "#MON trainer!"
 	done
 
 _ViridianForestEndBattleText2::
 	text "Huh?"
 	line "I ran out of"
-	cont "#mon!"
+	cont "#MON!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
@@ -64,15 +64,15 @@ _ViridianFrstAfterBattleText3::
 
 _ViridianForestText8::
 	text "I ran out of #"
-	line "Balls to catch"
-	cont "#mon with!"
+	line "BALLs to catch"
+	cont "#MON with!"
 
 	para "You should carry"
 	line "extras!"
 	done
 
 _ViridianForestText9::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
 	para "If you want to"
 	line "avoid battles,"
@@ -82,33 +82,33 @@ _ViridianForestText9::
 
 _ViridianForestText10::
 	text "For poison, use"
-	line "Antidote! Get it"
-	cont "at #mon Marts!"
+	line "ANTIDOTE! Get it"
+	cont "at #MON Marts!"
 	done
 
 _ViridianForestText11::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
-	para "Contact Prof. Oak"
+	para "Contact PROF. OAK"
 	line "via PC to get"
-	cont "your #dex"
+	cont "your #DEX"
 	cont "evaluated!"
 	done
 
 _ViridianForestText12::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
 	para "No stealing of"
-	line "#mon from"
+	line "#MON from"
 	cont "other trainers!"
 	cont "Catch only wild"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 _ViridianForestText13::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
-	para "Weaken #mon"
+	para "Weaken #MON"
 	line "before attempting"
 	cont "capture!"
 
@@ -117,7 +117,7 @@ _ViridianForestText13::
 	done
 
 _ViridianForestText14::
-	text "Viridian Forest"
-	line "Pewter City -"
-	cont "Viridian City"
+	text "VIRIDIAN FOREST"
+	line "PEWTER CITY -"
+	cont "VIRIDIAN CITY"
 	done

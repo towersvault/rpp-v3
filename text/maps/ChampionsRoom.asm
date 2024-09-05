@@ -10,19 +10,19 @@ _GaryChampionIntroText::
 	cont "me sharp!"
 
 	para "While working on"
-	line "#dex, I looked"
+	line "#DEX, I looked"
 	cont "all over for"
-	cont "powerful #mon!"
+	cont "powerful #MON!"
 
 	para "Not only that, I"
 	line "assembled teams"
 	cont "that would beat"
-	cont "any #mon type!"
+	cont "any #MON type!"
 
 	para "And now!"
 
-	para "I'm the #mon"
-	line "League Champion!"
+	para "I'm the #MON"
+	line "LEAGUE CHAMPION!"
 
 	para "[PLAYER]! Do you"
 	line "know what that"
@@ -42,7 +42,7 @@ _GaryDefeatedText::
 
 	para "After all that"
 	line "work to become"
-	cont "League Champ?"
+	cont "LEAGUE CHAMP?"
 
 	para "My reign is over"
 	line "already?"
@@ -59,7 +59,7 @@ _GaryVictoryText::
 	para "You did well to"
 	line "even reach me,"
 	cont "[RIVAL], the"
-	cont "#mon genius!"
+	cont "#MON genius!"
 
 	para "Nice try, loser!"
 	line "Hahaha!"
@@ -71,11 +71,11 @@ _GaryText_76103::
 
 	para "I never made any"
 	line "mistakes raising"
-	cont "my #mon..."
+	cont "my #MON..."
 
 	para "Darn it! You're"
-	line "the new #mon"
-	cont "League Champion!"
+	line "the new #MON"
+	cont "LEAGUE CHAMPION!"
 
 	para "Although I don't"
 	line "like to admit it."
@@ -89,8 +89,8 @@ _GaryText_76120::
 	text "Oak: So, you won!"
 	line "Congratulations!"
 	cont "You're the new"
-	cont "#mon League"
-	cont "Champion!"
+	cont "#MON LEAGUE"
+	cont "CHAMPION!"
 
 	para "You've grown up so"
 	line "much since you"
@@ -109,7 +109,7 @@ _GaryText_76125::
 
 	para "I came when I"
 	line "heard you beat"
-	cont "the Elite Four!"
+	cont "the ELITE FOUR!"
 
 	para "But, when I got"
 	line "here, you had"
@@ -121,7 +121,7 @@ _GaryText_76125::
 
 	para "You have forgotten"
 	line "to treat your"
-	cont "#mon with"
+	cont "#MON with"
 	cont "trust and love!"
 
 	para "Without them, you"
@@ -138,7 +138,7 @@ _GaryText_7612a::
 	cont "own doing!"
 
 	para "The bond you share"
-	line "with your #mon"
+	line "with your #MON"
 	cont "is marvelous!"
 
 	para "[PLAYER]!"

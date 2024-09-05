@@ -1,6 +1,6 @@
 _FuchsiaHouse1Text1:: ; unused, now the Move Deleter
-	text "Safari Zone's"
-	line "Warden is old,"
+	text "SAFARI ZONE's"
+	line "WARDEN is old,"
 	cont "but still active!"
 
 	para "All his teeth are"
@@ -9,7 +9,7 @@ _FuchsiaHouse1Text1:: ; unused, now the Move Deleter
 
 _FuchsiaHouse1Text2:: ; unused, now the Move Relearner
 	text "Hmm? You've met"
-	line "Bill?"
+	line "BILL?"
 
 	para "He's my grandson!"
 
@@ -21,5 +21,5 @@ _FuchsiaHouse1Text2:: ; unused, now the Move Relearner
 _FuchsiaHouse1Text3:: ; kid at the bookshelf
 	text "I'm looking up the"
 	line "best moves for my"
-	cont "Sylveon to know."
+	cont "SYLVEON to know."
 	done

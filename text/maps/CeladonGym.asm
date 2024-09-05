@@ -7,13 +7,13 @@ _CeladonGymText_48a5e::
 	line "I must have dozed"
 	cont "off. Welcome."
 
-	para "My name is Erika."
-	line "I am the Leader"
-	cont "of Celadon Gym."
+	para "My name is ERIKA."
+	line "I am the LEADER"
+	cont "of CELADON GYM."
 
 	para "I teach the art of"
 	line "flower arranging."
-	cont "My #mon are of"
+	cont "My #MON are of"
 	cont "the grass-type."
 
 	para "Oh, I'm sorry, I"
@@ -33,28 +33,28 @@ _CeladonGymText_48a63::
 	line "strong."
 
 	para "I must confer you"
-	line "the RainbowBadge."
+	line "the RAINBOWBADGE."
 	prompt
 
 _CeladonGymText_48a68::
 	text "You are cataloging"
-	line "#mon? I must"
+	line "#MON? I must"
 	cont "say I'm impressed."
 
 	para "I would never"
-	line "collect #mon"
+	line "collect #MON"
 	cont "if they were"
 	cont "unattractive."
 	done
 
 _CeladonGymText9::
-	text "The RainbowBadge"
-	line "will make #mon"
+	text "The RAINBOWBADGE"
+	line "will make #MON"
 	cont "up to Lv60 obey."
 
 	para "It also allows"
-	line "#mon to use"
-	cont "Strength in and"
+	line "#MON to use"
+	cont "STRENGTH in and"
 	cont "out of battle."
 
 	para "Please also take"
@@ -70,12 +70,12 @@ _ReceivedTM21Text::
 _TM21ExplanationText::
 	db $0
 	para "TM21 contains"
-	line "Giga Drain."
+	line "GIGA DRAIN."
 
 	para "Half the damage"
 	line "it inflicts is"
 	cont "drained to heal"
-	cont "your #mon!"
+	cont "your #MON!"
 	done
 
 _TM21NoRoomText::
@@ -96,7 +96,7 @@ _CeladonGymEndBattleText2::
 
 _CeladonGymAfterBattleText2::
 	text "Ugg!"
-	line "I hope Erika"
+	line "I hope ERIKA"
 	cont "wipes you out!"
 	done
 
@@ -110,13 +110,13 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "Grass-type #mon"
+	text "Grass-type #MON"
 	line "are tough against"
 	cont "the water-type!"
 
 	para "They also have an"
 	line "edge on rock and"
-	cont "ground #mon!"
+	cont "ground #MON!"
 	done
 
 _CeladonGymBattleText4::
@@ -136,7 +136,7 @@ _CeladonGymAfterBattleText4::
 
 _CeladonGymBattleText5::
 	text "Look at my grass"
-	line "#mon!"
+	line "#MON!"
 
 	para "They're so easy"
 	line "to raise!"
@@ -148,8 +148,8 @@ _CeladonGymEndBattleText5::
 
 _CeladonGymAfterBattleText5::
 	text "We only use grass-"
-	line "type #mon at"
-	cont "our Gym!"
+	line "type #MON at"
+	cont "our GYM!"
 
 	para "We also use them"
 	line "for making flower"
@@ -159,7 +159,7 @@ _CeladonGymAfterBattleText5::
 _CeladonGymBattleText6::
 	text "Don't bring any"
 	line "bugs or fire"
-	cont "#mon in here!"
+	cont "#MON in here!"
 	done
 
 _CeladonGymEndBattleText6::
@@ -167,7 +167,7 @@ _CeladonGymEndBattleText6::
 	prompt
 
 _CeladonGymAfterBattleText6::
-	text "Our Leader, Erika,"
+	text "Our LEADER, ERIKA,"
 	line "might be quiet,"
 	cont "but she's also"
 	cont "very skilled!"
@@ -176,7 +176,7 @@ _CeladonGymAfterBattleText6::
 _CeladonGymBattleText7::
 	text "Pleased to meet"
 	line "you. My hobby is"
-	cont "#mon training."
+	cont "#MON training."
 	done
 
 _CeladonGymEndBattleText7::
@@ -192,7 +192,7 @@ _CeladonGymAfterBattleText7::
 
 _CeladonGymBattleText8::
 	text "Welcome to"
-	line "Celadon Gym!"
+	line "CELADON GYM!"
 
 	para "You better not"
 	line "underestimate"
@@ -205,7 +205,7 @@ _CeladonGymEndBattleText8::
 
 _CeladonGymAfterBattleText8::
 	text "I didn't bring my"
-	line "best #mon!"
+	line "best #MON!"
 
 	para "Wait 'til next"
 	line "time!"

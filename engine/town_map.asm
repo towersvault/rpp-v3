@@ -152,7 +152,7 @@ MonsText:
 	db "'s@"
 
 NestText:
-	db "Nest@"
+	db "NEST@"
 
 LoadTownMap_Fly:
 	ld a, [hTilesetType]
@@ -421,7 +421,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " Area unknown@"
+	db " AREA UNKNOWN@"
 
 TownMapCoordsToOAMCoords:
 ; in: b = y, c = x

@@ -1,17 +1,17 @@
 _Route4Text1::
 	text "Ouch! I tripped"
 	line "over a rocky"
-	cont "#mon, Geodude!"
+	cont "#MON, GEODUDE!"
 	done
 
 _Route4BattleText1::
 	text "I came to get my"
-	line "mushroom #mon!"
+	line "mushroom #MON!"
 	done
 
 _Route4EndBattleText1::
 	text "Oh! My cute"
-	line "mushroom #mon!"
+	line "mushroom #MON!"
 	prompt
 
 _Route4AfterBattleText1::
@@ -24,12 +24,12 @@ _Route4AfterBattleText1::
 	done
 
 _Route4Text5::
-	text "Mt. Moon"
-	line "Tunnel Entrance"
+	text "MT. MOON"
+	line "TUNNEL ENTRANCE"
 	done
 
 _Route4Text6::
-	text "Route 4"
-	line "Mt. Moon -"
-	cont "Cerulean City"
+	text "ROUTE 4"
+	line "MT. MOON -"
+	cont "CERULEAN CITY"
 	done

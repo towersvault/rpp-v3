@@ -2,12 +2,12 @@ _LavenderMartText2::
 	text "I'm searching for"
 	line "items that raise"
 	cont "the abilities of"
-	cont "#mon during a"
+	cont "#MON during a"
 	cont "single battle."
 
-	para "X Attack, X"
-	line "Defend, X Speed"
-	cont "and X Special are"
+	para "X ATTACK, X"
+	line "DEFEND, X SPEED"
+	cont "and X SPECIAL are"
 	cont "what I'm after."
 
 	para "Do you know where"
@@ -15,13 +15,13 @@ _LavenderMartText2::
 	done
 
 _LavenderMartReviveText::
-	text "You know Revive?"
+	text "You know REVIVE?"
 	line "It revives any"
-	cont "fainted #mon!"
+	cont "fainted #MON!"
 	done
 
 _LavenderMartNuggetText::
-	text "I found a Nugget"
+	text "I found a NUGGET"
 	line "in the mountains."
 
 	para "I thought it was"

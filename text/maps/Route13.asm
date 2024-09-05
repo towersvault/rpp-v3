@@ -1,5 +1,5 @@
 _Route13BattleText2::
-	text "My bird #mon"
+	text "My bird #MON"
 	line "want to scrap!"
 	done
 
@@ -9,7 +9,7 @@ _Route13EndBattleText2::
 	prompt
 
 _Route13AfterBattleText2::
-	text "My #mon look"
+	text "My #MON look"
 	line "happy even though"
 	cont "they lost."
 	done
@@ -31,7 +31,7 @@ _Route13AfterBattleText3::
 	done
 
 _Route13BattleText4::
-	text "Wow! Your Badges"
+	text "Wow! Your BADGEs"
 	line "are too cool!"
 	done
 
@@ -41,12 +41,12 @@ _Route13EndBattleText4::
 
 _Route13AfterBattleText4::
 	text "You got those"
-	line "Badges from Gym"
-	cont "Leaders. I know!"
+	line "BADGEs from GYM"
+	cont "LEADERs. I know!"
 	done
 
 _Route13BattleText5::
-	text "My cute #mon"
+	text "My cute #MON"
 	line "wish to make your"
 	cont "acquaintance."
 	done
@@ -58,12 +58,12 @@ _Route13EndBattleText5::
 
 _Route13AfterBattleText5::
 	text "You have to make"
-	line "#mon fight to"
+	line "#MON fight to"
 	cont "toughen them up!"
 	done
 
 _Route13BattleText6::
-	text "I found Carbos in"
+	text "I found CARBOS in"
 	line "a cave once."
 	done
 
@@ -72,9 +72,9 @@ _Route13EndBattleText6::
 	prompt
 
 _Route13AfterBattleText6::
-	text "Carbos boosted"
-	line "the Speed of my"
-	cont "#mon."
+	text "CARBOS boosted"
+	line "the SPEED of my"
+	cont "#MON."
 	done
 
 _Route13BattleText7::
@@ -88,7 +88,7 @@ _Route13EndBattleText7::
 
 _Route13AfterBattleText7::
 	text "I'm beat. I guess"
-	line "I'll Fly home."
+	line "I'll FLY home."
 	done
 
 _Route13BattleText8::
@@ -104,12 +104,12 @@ _Route13EndBattleText8::
 _Route13AfterBattleText8::
 	text "I wonder which is"
 	line "stronger, male or"
-	cont "female #mon?"
+	cont "female #MON?"
 	done
 
 _Route13BattleText9::
 	text "Do you want to"
-	line "#mon with me?"
+	line "#MON with me?"
 	done
 
 _Route13EndBattleText9::
@@ -120,7 +120,7 @@ _Route13EndBattleText9::
 _Route13AfterBattleText9::
 	text "I don't know"
 	line "anything about"
-	cont "#mon. I just"
+	cont "#MON. I just"
 	cont "like cool ones!"
 	done
 
@@ -140,7 +140,7 @@ _Route13AfterBattleText10::
 
 _Route13BattleText11::
 	text "I always go with"
-	line "bird #mon!"
+	line "bird #MON!"
 	done
 
 _Route13EndBattleText11::
@@ -149,27 +149,27 @@ _Route13EndBattleText11::
 
 _Route13AfterBattleText11::
 	text "I wish I could"
-	line "fly like Pidgey"
-	cont "and Pidgeotto..."
+	line "fly like PIDGEY"
+	cont "and PIDGEOTTO..."
 	done
 
 _Route13Text11::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
 	para "Look to the left"
 	line "of that post!"
 	done
 
 _Route13Text12::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
-	para "Use Select to"
+	para "Use SELECT to"
 	line "switch items in"
-	cont "the Item window!"
+	cont "the ITEM window!"
 	done
 
 _Route13Text13::
-	text "Route 13"
-	line "North to Silence"
-	cont "Bridge"
+	text "ROUTE 13"
+	line "North to SILENCE"
+	cont "BRIDGE"
 	done

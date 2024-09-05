@@ -529,7 +529,7 @@ WonderConnectCableText:
 
 WelcomeToGlobalText:
 	text "Connecting to the"
-	line "Global Terminal.@@"
+	line "GLOBAL TERMINAL.@@"
 
 BeingAdjustedText:
 	text "The system is"
@@ -541,18 +541,18 @@ BeingAdjustedText:
 
 WouldYouLikeToWonderTradeText:
 	text "Would you like to"
-	line "use Wonder Trade?@@"
+	line "use WONDER TRADE?@@"
 	
 ComeAgainText:
 	text "Come again!@@"
 	
 CompletedWonderTradeText:
 	text "[PLAYER] completed"
-	line "a Wonder Trade!@@"
+	line "a WONDER TRADE!@@"
 	
 BannedMonText:
 	text "Error! That"
-	line "#mon is not"
+	line "#MON is not"
 	cont "allowed."
 	
 	para "Please choose"
@@ -561,7 +561,7 @@ BannedMonText:
 AreYouSureText:
 	text "You will not be"
 	line "able to get your"
-	cont "#mon back if"
+	cont "#MON back if"
 	cont "you continue."
 	
 	para "Are you sure you"

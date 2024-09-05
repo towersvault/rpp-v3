@@ -1,5 +1,5 @@
 _SSAnne10Text8::
-	text "Machoke: Gwoh!"
+	text "MACHOKE: Gwoh!"
 	line "Goggoh!@@"
 
 _SSAnne10BattleText1::
@@ -30,13 +30,13 @@ _SSAnne10EndBattleText2::
 
 _SSAnne10AfterBattleText2::
 	text "Did you see the"
-	line "Fishing Guru in"
-	cont "Vermilion City?"
+	line "FISHING GURU in"
+	cont "VERMILION CITY?"
 	done
 
 _SSAnne10BattleText3::
 	text "Us sailors have"
-	line "#mon too!"
+	line "#MON too!"
 	done
 
 _SSAnne10EndBattleText3::
@@ -46,7 +46,7 @@ _SSAnne10EndBattleText3::
 
 _SSAnne10AfterBattleText3::
 	text "We caught all our"
-	line "#mon while"
+	line "#MON while"
 	cont "out at sea!"
 	done
 
@@ -60,9 +60,9 @@ _SSAnne10EndBattleText4::
 	prompt
 
 _SSAnne10AfterBattleText4::
-	text "Sea #mon live"
+	text "Sea #MON live"
 	line "in deep water."
-	cont "You'll need a Rod!"
+	cont "You'll need a ROD!"
 	done
 
 _SSAnne10BattleText5::
@@ -86,7 +86,7 @@ _SSAnne10BattleText6::
 	text "Hello stranger!"
 	line "Stop and chat!"
 
-	para "All my #mon"
+	para "All my #MON"
 	line "are from the sea!"
 	done
 
@@ -103,10 +103,10 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-	text "My buddy, Machoke,"
+	text "My buddy, MACHOKE,"
 	line "is super strong!"
 
 	para "He has enough"
-	line "Strength to move"
+	line "STRENGTH to move"
 	cont "big rocks!"
 	done

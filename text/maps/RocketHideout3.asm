@@ -1,6 +1,6 @@
 _RocketHideout3BattleText2::
 	text "Stop meddling in"
-	line "Team Rocket's"
+	line "TEAM ROCKET's"
 	cont "affairs!"
 	done
 
@@ -10,9 +10,9 @@ _RocketHideout3EndBattleText2::
 	prompt
 
 _RocketHideout3AfterBattleTxt2::
-	text "Silph Scope?"
+	text "SILPH SCOPE?"
 	line "The machine the"
-	cont "Boss stole. It's"
+	cont "BOSS stole. It's"
 	cont "here somewhere."
 	done
 
@@ -30,6 +30,6 @@ _RocketHideout3EndBattleText3::
 _RocketHide3AfterBattleText3::
 	text "Go ahead and go!"
 	line "But, you need the"
-	cont "Lift Key to run"
+	cont "LIFT KEY to run"
 	cont "the elevator!"
 	done

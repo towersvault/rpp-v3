@@ -1,12 +1,12 @@
 _SafariZoneEntranceText1::
 	text "Welcome to the"
-	line "Safari Zone!"
+	line "SAFARI ZONE!"
 	done
 
 SafariZoneEntranceText_9e6e4::
 	text "For just ¥500,"
 	line "you can catch all"
-	cont "the #mon you"
+	cont "the #MON you"
 	cont "want in the park!"
 
 	para "Would you like to"
@@ -17,18 +17,18 @@ SafariZoneEntranceText_9e747::
 	line "please!"
 
 	para "We only use a"
-	line "special # Ball"
+	line "special # BALL"
 	cont "here."
 
 	para "[PLAYER] received"
-	line "30 Safari Balls!@@"
+	line "30 SAFARI BALLs!@@"
 
 _SafariZoneEntranceText_75360::
 	db $0
 	para "We'll call you on"
 	line "the PA when you"
 	cont "run out of time"
-	cont "or Safari Balls!"
+	cont "or SAFARI BALLs!"
 	done
 
 _SafariZoneEntranceText_75365::
@@ -46,7 +46,7 @@ SafariZoneEntranceText_9e814::
 
 _SafariZoneEntranceText_753bb::
 	text "Please return any"
-	line "Safari Balls you"
+	line "SAFARI BALLs you"
 	cont "have left."
 	done
 
@@ -66,25 +66,25 @@ _SafariZoneEntranceText_753e6::
 	done
 
 _SafariZoneEntranceText_753eb::
-	text "Safari Zone has 4"
+	text "SAFARI ZONE has 4"
 	line "areas in it."
 
 	para "Each area has"
 	line "different kinds"
-	cont "of #mon. Use"
-	cont "Safari Balls to"
+	cont "of #MON. Use"
+	cont "SAFARI BALLs to"
 	cont "catch them!"
 
 	para "When you run out"
-	line "of time or Safari"
-	cont "Balls, it's game"
+	line "of time or SAFARI"
+	cont "BALLs, it's game"
 	cont "over for you!"
 
 	para "Before you go,"
 	line "open an unused"
-	cont "#mon Box so"
+	cont "#MON BOX so"
 	cont "there's room for"
-	cont "new #mon!"
+	cont "new #MON!"
 	done
 
 _SafariZoneEntranceText_753f0::
@@ -100,7 +100,7 @@ _SafariZoneLowCostText1::
 
 _SafariZoneLowCostText2::
 	text "But, I can't give"
-	line "you all 30 Balls."
+	line "you all 30 BALLs."
 	done
 
 _SafariZoneLowCostText3::

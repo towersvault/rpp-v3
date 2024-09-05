@@ -1,11 +1,11 @@
 _SilphCo3Text_59ff9::
-	text "I work for Silph."
+	text "I work for SILPH."
 	line "What should I do?"
 	done
 
 _SilphCo3Text_59ffe::
 	text "[PLAYER]! You and"
-	line "your #mon"
+	line "your #MON"
 	cont "saved us!"
 	done
 
@@ -21,13 +21,13 @@ _SilphCo3EndBattleText1::
 _SilphCo3AfterBattleText1::
 	text "A hint? You can"
 	line "open doors with a"
-	cont "Card Key!"
+	cont "CARD KEY!"
 	done
 
 _SilphCo3BattleText2::
-	text "I support Team"
-	line "Rocket more than"
-	cont "I support Silph!"
+	text "I support TEAM"
+	line "ROCKET more than"
+	cont "I support SILPH!"
 	done
 
 _SilphCo3EndBattleText2::
@@ -37,8 +37,8 @@ _SilphCo3EndBattleText2::
 _SilphCo3AfterBattleText2::
 	text "Humph..."
 
-	para "Team Rocket said"
+	para "TEAM ROCKET said"
 	line "that if I helped"
 	cont "them, they'd let"
-	cont "me study #mon!"
+	cont "me study #MON!"
 	done

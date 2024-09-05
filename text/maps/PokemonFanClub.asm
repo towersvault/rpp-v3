@@ -1,18 +1,18 @@
 PikachuFanText::
 	text "Won't you admire"
-	line "my Pikachu's"
+	line "my PIKACHU's"
 	cont "adorable tail?"
 	done
 
 PikachuFanBetterText::
-	text "Humph! My Pikachu"
+	text "Humph! My PIKACHU"
 	line "is twice as cute"
 	cont "as that one!"
 	done
 
 SeelFanText::
 	text "I just love my"
-	line "Seel!"
+	line "SEEL!"
 
 	para "It squeals when I"
 	line "hug it!"
@@ -21,35 +21,35 @@ SeelFanText::
 SeelFanBetterText::
 	text "Oh dear!"
 
-	para "My Seel is far"
+	para "My SEEL is far"
 	line "more attractive!"
 	done
 
 FanClubPikachuText::
-	text "Pikachu: Chu!"
+	text "PIKACHU: Chu!"
 	line "Pikachu!"
 	done
 
 FanClubSeelText::
-	text "Seel: Kyuoo!"
+	text "SEEL: Kyuoo!"
 	done
 
 FanClubMeetChairText::
 	text "I chair the"
-	line "#mon Fan Club!"
+	line "#MON FAN CLUB!"
 
 	para "I have collected"
-	line "over 100 #mon!"
+	line "over 100 #MON!"
 
 	para "I'm very fussy"
 	line "when it comes to"
-	cont "#mon!"
+	cont "#MON!"
 
 	para "So..."
 
 	para "Did you come"
 	line "visit to hear"
-	cont "about my #mon?"
+	cont "about my #MON?"
 	done
 
 FanClubChairStoryText::
@@ -57,7 +57,7 @@ FanClubChairStoryText::
 	line "Then listen up!"
 
 	para "My favorite"
-	line "Rapidash..."
+	line "RAPIDASH..."
 
 	para "It...cute..."
 	line "lovely...smart..."
@@ -91,14 +91,14 @@ ReceivedBikeVoucherText::
 ExplainBikeVoucherText::
 	text ""
 	para "Exchange that for"
-	line "a Bicycle!"
+	line "a BICYCLE!"
 
 	para "Don't worry, my"
-	line "Fearow will Fly"
+	line "FEAROW will FLY"
 	cont "me anywhere!"
 
 	para "So, I don't need a"
-	line "Bicycle!"
+	line "BICYCLE!"
 
 	para "I hope you like"
 	line "cycling!"
@@ -115,7 +115,7 @@ FanClubChairFinalText::
 
 	para "Did you come see"
 	line "me about my"
-	cont "#mon again?"
+	cont "#MON again?"
 
 	para "No? Too bad!"
 	done
@@ -128,7 +128,7 @@ FanClubBagFullText::
 _FanClubText6::
 	text "Our Chairman is"
 	line "very vocal about"
-	cont "#mon."
+	cont "#MON."
 	done
 
 _FanClubText7::

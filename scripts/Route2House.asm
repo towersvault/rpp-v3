@@ -19,4 +19,4 @@ Route2HouseText2:
 	jp TextScriptEnd
 
 Trader1Name:
-	db "Calvin@"
+	db "CALVIN@"

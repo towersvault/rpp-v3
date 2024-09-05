@@ -1,7 +1,7 @@
 _SilphCoPresidentText::
-	text "President: Thank"
+	text "PRESIDENT: Thank"
 	line "you for saving"
-	cont "Silph!"
+	cont "SILPH!"
 
 	para "I will never"
 	line "forget you saved"
@@ -26,16 +26,16 @@ _ReceivedSilphCoMasterBallText::
 	text "!@@"
 
 _SilphCo10Text_6231c::
-	text "President: You"
+	text "PRESIDENT: You"
 	line "can't buy that"
 	cont "anywhere!"
 
 	para "It's our secret"
-	line "prototype Master"
-	cont "Ball!"
+	line "prototype MASTER"
+	cont "BALL!"
 
 	para "It will catch any"
-	line "#mon without"
+	line "#MON without"
 	cont "fail!"
 
 	para "You should be"
@@ -49,7 +49,7 @@ _SilphCoMasterBallNoRoomText::
 	done
 
 _SilphCo11Text2::
-	text "Secretary: Thank"
+	text "SECRETARY: Thank"
 	line "you for rescuing"
 	cont "all of us!"
 
@@ -61,7 +61,7 @@ _SilphCo11Text3::
 	text "Ah, [PLAYER]!"
 	line "So we meet again!"
 
-	para "The President and"
+	para "The PRESIDENT and"
 	line "I are discussing"
 	cont "a vital business"
 	cont "proposition."
@@ -82,15 +82,15 @@ _SilphCo10Text_62330::
 _SilphCo10Text_62335::
 	text "Blast it all!"
 	line "You ruined our"
-	cont "plans for Silph!"
+	cont "plans for SILPH!"
 
-	para "But, Team Rocket"
+	para "But, TEAM ROCKET"
 	line "will never fall!"
 
 	para "[PLAYER]! Never"
 	line "forget that all"
-	cont "#mon exist"
-	cont "for Team Rocket!"
+	cont "#MON exist"
+	cont "for TEAM ROCKET!"
 
 	para "I must go, but I"
 	line "shall return!"
@@ -109,13 +109,13 @@ _SilphCo11EndBattleText1::
 
 _SilphCo11AfterBattleText1::
 	text "So, you want to"
-	line "see my Boss?"
+	line "see my BOSS?"
 	done
 
 _SilphCo11BattleText2::
 	text "Halt! Do you have"
 	line "an appointment"
-	cont "with my Boss?"
+	cont "with my BOSS?"
 	done
 
 _SilphCo11EndBattleText2::
@@ -125,11 +125,11 @@ _SilphCo11EndBattleText2::
 
 _SilphCo11AfterBattleText2::
 	text "Watch your step,"
-	line "my Boss likes his"
-	cont "#mon tough!"
+	line "my BOSS likes his"
+	cont "#MON tough!"
 	done
 
 _SilphCo10Text_6237b::
 	text "The monitor has"
-	line "#mon on it!"
+	line "#MON on it!"
 	done

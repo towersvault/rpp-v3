@@ -23,13 +23,13 @@ _DaisyBagFullText::
 	done
 
 _DaisyUseMapText::
-	text "Use the Town Map"
+	text "Use the TOWN MAP"
 	line "to find out where"
 	cont "you are."
 	done
 
 _BluesHouseText2::
-	text "#mon are living"
+	text "#MON are living"
 	line "things! If they"
 	cont "get tired, give"
 	cont "them a rest!"
@@ -37,7 +37,7 @@ _BluesHouseText2::
 
 _BluesHouseText3::
 	text "A map of the"
-	line "Kanto region!"
+	line "KANTO region!"
 	done
 
 _BluesTVText::
@@ -45,5 +45,5 @@ _BluesTVText::
 	
 	para "It's all about"
 	line "different types"
-	cont "of #mon."
+	cont "of #MON."
 	done
