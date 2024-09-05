@@ -19,7 +19,7 @@ _SSAnneRivalBeforeBattleText::
 	line "really invited?"
 
 	para "So how's your"
-	line "#dex coming?"
+	line "#DEX coming?"
 
 	para "I already caught"
 	line "40 kinds, pal!"
@@ -36,7 +36,7 @@ _SSAnneRivalDefeatedText::
 
 	para "At least you're"
 	line "raising your"
-	cont "#mon!"
+	cont "#MON!"
 	prompt
 
 _SSAnneRivalWonText::
@@ -49,14 +49,14 @@ _SSAnneRivalWonText::
 
 _SSAnneRivalCaptainText::
 	text "[RIVAL]: I heard"
-	line "there was a Cut"
+	line "there was a CUT"
 	cont "master on board."
 
 	para "But, he was just a"
 	line "seasick, old man!"
 
 	para "At least I can"
-	line "Cut down those"
+	line "CUT down those"
 	cont "annoying little"
 	cont "bushes now."
 

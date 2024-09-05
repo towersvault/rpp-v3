@@ -10,7 +10,7 @@ _Route17EndBattleText1::
 _Route17AfterBattleText1::
 	text "Good stuff is"
 	line "lying around on"
-	cont "Cycling Road!"
+	cont "CYCLING ROAD!"
 	done
 
 _Route17BattleText2::
@@ -30,7 +30,7 @@ _Route17AfterBattleText2::
 
 _Route17BattleText3::
 	text "You heading to"
-	line "Fuchsia?"
+	line "FUCHSIA?"
 	done
 
 _Route17EndBattleText3::
@@ -43,7 +43,7 @@ _Route17AfterBattleText3::
 	done
 
 _Route17BattleText4::
-	text "We're Bikers!"
+	text "We're BIKERs!"
 	line "Highway stars!"
 	done
 
@@ -58,9 +58,9 @@ _Route17AfterBattleText4::
 
 _Route17BattleText5::
 IF DEF(_HARD)
-	text "Let Electrode"
+	text "Let ELECTRODE"
 ELSE
-	text "Let Voltorb"
+	text "Let VOLTORB"
 ENDC
 	line "electrify you!"
 	done
@@ -71,16 +71,16 @@ _Route17EndBattleText5::
 
 _Route17AfterBattleText5::
 IF DEF(_HARD)
-	text "I found Electrode"
+	text "I found ELECTRODE"
 ELSE
-	text "I got my Voltorb"
+	text "I got my VOLTORB"
 ENDC
 	line "at the abandoned"
-	cont "Power Plant."
+	cont "POWER PLANT."
 	done
 
 _Route17BattleText6::
-	text "My #mon won't"
+	text "My #MON won't"
 	line "evolve! Why?"
 	done
 
@@ -89,9 +89,9 @@ _Route17EndBattleText6::
 	prompt
 
 _Route17AfterBattleText6::
-	text "Maybe some #mon"
+	text "Maybe some #MON"
 	line "need element"
-	cont "Stones to evolve."
+	cont "STONEs to evolve."
 	done
 
 _Route17BattleText7::
@@ -123,7 +123,7 @@ _Route17AfterBattleText8::
 	done
 
 _Route17BattleText9::
-	text "Nice Bike!"
+	text "Nice BIKE!"
 	line "How's it handle?"
 	done
 
@@ -159,19 +159,19 @@ _Route17Text11::
 	done
 
 _Route17Text12::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
-	para "All #mon are"
+	para "All #MON are"
 	line "unique."
 
-	para "Even #mon of"
+	para "Even #MON of"
 	line "the same type and"
 	cont "level grow at"
 	cont "different rates."
 	done
 
 _Route17Text13::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
 	para "Press the A or B"
 	line "button to stay in"
@@ -180,9 +180,9 @@ _Route17Text13::
 	done
 
 _Route17Text14::
-	text "Route 17"
-	line "Celadon City -"
-	cont "Fuchsia City"
+	text "ROUTE 17"
+	line "CELADON CITY -"
+	cont "FUCHSIA CITY"
 	done
 
 _Route17Text15::
@@ -190,11 +190,11 @@ _Route17Text15::
 
 	para "Don't throw the"
 	line "game, throw #"
-	cont "Balls instead!"
+	cont "BALLs instead!"
 	done
 
 _Route17Text16::
-	text "Cycling Road"
+	text "CYCLING ROAD"
 	
 	para "Slope ends here!"
 	done

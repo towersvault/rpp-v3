@@ -53,7 +53,7 @@ VendingMachineMenu:
 	call GiveItem
 	jr nc, .BagFull
 
-	ld b, 60 ; number of times to play the "brrrrr" sound
+	ld b, 60 ; number of times to play the "BRRRRR" sound
 .playDeliverySound
 	ld c, 2
 	call DelayFrames
@@ -85,10 +85,10 @@ VendingMachineText1:
 	db "@"
 
 DrinkText:
-	db   "Fresh Water"
-	next "Soda Pop"
-	next "Lemonade"
-	next "Cancel@"
+	db   "FRESH WATER"
+	next "SODA POP"
+	next "LEMONADE"
+	next "CANCEL@"
 
 DrinkPriceText:
 	db   "¥200"

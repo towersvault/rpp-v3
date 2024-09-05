@@ -1,6 +1,6 @@
 _FuchsiaMartText2::
 	text "Do you have a"
-	line "Safari Zone flag?"
+	line "SAFARI ZONE flag?"
 
 	para "What about cards"
 	line "or calendars?"
@@ -8,7 +8,7 @@ _FuchsiaMartText2::
 
 _FuchsiaMartText3::
 	text "Did you try X"
-	line "Speed? It speeds"
-	cont "up a #mon in"
+	line "SPEED? It speeds"
+	cont "up a #MON in"
 	cont "battle!"
 	done

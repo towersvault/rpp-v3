@@ -1,6 +1,6 @@
 _TM18PreReceiveText::
 	text "Oh, hi! I finally"
-	line "finished #mon!"
+	line "finished #MON!"
 
 	para "Not done yet?"
 	line "This might be"
@@ -14,7 +14,7 @@ _ReceivedTM18Text::
 	text "!@@"
 
 _TM18ExplanationText::
-	text "TM18 is Counter!"
+	text "TM18 is COUNTER!"
 	line "Not like the one"
 	cont "I'm leaning on,"
 	cont "mind you!"
@@ -26,7 +26,7 @@ _TM18NoRoomText::
 	done
 
 _CeladonMart3Text2::
-	text "Captured #mon"
+	text "Captured #MON"
 	line "are registered"
 	cont "with an ID No."
 	cont "and OT, the name"
@@ -40,26 +40,26 @@ _CeladonMart3Text3::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "Kangaskhan for my"
-	cont "Graveler!"
+	cont "KANGASKHAN for my"
+	cont "GRAVELER!"
 	done
 
 _CeladonMart3Text4::
-	text "Come on Graveler!"
+	text "Come on GRAVELER!"
 
-	para "I love Graveler!"
+	para "I love GRAVELER!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "Graveler turned"
+	para "GRAVELER turned"
 	line "into a different"
-	cont "#mon!"
+	cont "#MON!"
 	done
 
 _CeladonMart3Text5::
 	text "You can identify"
-	line "#mon you got"
+	line "#MON you got"
 	cont "in trades by"
 	cont "their ID Numbers!"
 	done
@@ -89,10 +89,10 @@ _CeladonMart3Text13::
 	done
 
 _CeladonMart3Text14::
-	text "3F: TV Game Shop"
+	text "3F: TV GAME SHOP"
 	done
 
 _CeladonMart3Text15::
 	text "Red and Blue!"
-	line "Both are #mon!"
+	line "Both are #MON!"
 	done

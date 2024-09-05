@@ -12,7 +12,7 @@ _ReceivedTM29Text::
 	text "!@@"
 
 _TM29ExplanationText::
-	text "TM29 is Psychic!"
+	text "TM29 is PSYCHIC!"
 
 	para "It can lower the"
 	line "target's Special"

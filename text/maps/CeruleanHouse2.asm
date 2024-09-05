@@ -1,6 +1,6 @@
 _CeruleanHouse2Text_74e77::
-	text "Berry Trees grow"
-	line "all over Kanto."
+	text "BERRY TREES grow"
+	line "all over KANTO."
 
 	para "I'm sure you've"
 	line "seen them by now."
@@ -14,7 +14,7 @@ _CeruleanHouse2Text_74e7c::
 	text "Now then..."
 
 	para "Which of the 10"
-	line "Berries should I"
+	line "BERRIES should I"
 	cont "describe?"
 	done
 
@@ -39,41 +39,41 @@ _LeppaBerryText::
 	prompt
 
 _PechaBerryText::
-	text "Cures a #mon of"
-	line "being Poisoned."
+	text "Cures a #MON of"
+	line "being POISONED."
 	prompt
 
 _RawstBerryText::
-	text "Cures a #mon of"
-	line "being Burned."
+	text "Cures a #MON of"
+	line "being BURNED."
 	prompt
 
 _AspearBerryText::
-	text "Cures a #mon of"
-	line "being Frozen."
+	text "Cures a #MON of"
+	line "being FROZEN."
 	prompt
 
 _ChestoBerryText::
-	text "Wakes up a #mon"
-	line "that is Asleep."
+	text "Wakes up a #MON"
+	line "that is ASLEEP."
 	prompt
 
 _CheriBerryText::
-	text "Cures a #mon of"
-	line "Paralysis."
+	text "Cures a #MON of"
+	line "PARALYSIS."
 	prompt
 
 _LumBerryText::
-    text "Cures a #mon of"
+    text "Cures a #MON of"
     line "any negative"
     cont "status condition."
     prompt
     
 _SwegBerryText::
     text "An extremely rare"
-    line "Berry."
+    line "BERRY."
     
     para "It increases a"
-    line "#mon's level by"
+    line "#MON's level by"
     cont "1 when used."
     prompt

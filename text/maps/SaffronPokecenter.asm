@@ -1,12 +1,12 @@
 _SaffronPokecenterText2::
-	text "#mon growth"
+	text "#MON growth"
 	line "rates differ"
 	cont "between species."
 	done
 
 _SaffronPokecenterText3::
-	text "Silph Co. is very"
+	text "SILPH CO. is very"
 	line "famous. That's"
 	cont "why it attracted"
-	cont "Team Rocket!"
+	cont "TEAM ROCKET!"
 	done

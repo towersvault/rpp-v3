@@ -1,109 +1,109 @@
 MapNames:
 PalletTownName:
-	db "Pallet Town@"
+	db "PALLET TOWN@"
 ViridianCityName:
-	db "Viridian_City@"
+	db "VIRIDIAN_CITY@"
 PewterCityName:
-	db "Pewter City@"
+	db "PEWTER CITY@"
 CeruleanCityName:
-	db "Cerulean_City@"
+	db "CERULEAN_CITY@"
 LavenderTownName:
-	db "Lavender_Town@"
+	db "LAVENDER_TOWN@"
 VermilionCityName:
-	db "Vermilion_City@"
+	db "VERMILION_CITY@"
 CeladonCityName:
-	db "Celadon_City@"
+	db "CELADON_CITY@"
 FuchsiaCityName:
-	db "Fuchsia_City@"
+	db "FUCHSIA_CITY@"
 CinnabarIslandName:
-	db "Cinnabar_Island@"
+	db "CINNABAR_ISLAND@"
 IndigoPlateauName:
-	db "Indigo_Plateau@"
+	db "INDIGO_PLATEAU@"
 SaffronCityName:
-	db "Saffron_City@"
+	db "SAFFRON_CITY@"
 Route1Name:
-	db "Route 1@"
+	db "ROUTE 1@"
 Route2Name:
-	db "Route 2@"
+	db "ROUTE 2@"
 Route3Name:
-	db "Route 3@"
+	db "ROUTE 3@"
 Route4Name:
-	db "Route 4@"
+	db "ROUTE 4@"
 Route5Name:
-	db "Route 5@"
+	db "ROUTE 5@"
 Route6Name:
-	db "Route 6@"
+	db "ROUTE 6@"
 Route7Name:
-	db "Route 7@"
+	db "ROUTE 7@"
 Route8Name:
-	db "Route 8@"
+	db "ROUTE 8@"
 Route9Name:
-	db "Route 9@"
+	db "ROUTE 9@"
 Route10Name:
-	db "Route 10@"
+	db "ROUTE 10@"
 Route11Name:
-	db "Route 11@"
+	db "ROUTE 11@"
 Route12Name:
-	db "Route 12@"
+	db "ROUTE 12@"
 Route13Name:
-	db "Route 13@"
+	db "ROUTE 13@"
 Route14Name:
-	db "Route 14@"
+	db "ROUTE 14@"
 Route15Name:
-	db "Route 15@"
+	db "ROUTE 15@"
 Route16Name:
-	db "Route 16@"
+	db "ROUTE 16@"
 Route17Name:
-	db "Route 17@"
+	db "ROUTE 17@"
 Route18Name:
-	db "Route 18@"
+	db "ROUTE 18@"
 Route19Name:
-	db "Route 19@"
+	db "ROUTE 19@"
 Route20Name:
-	db "Route 20@"
+	db "ROUTE 20@"
 Route21Name:
-	db "Route 21@"
+	db "ROUTE 21@"
 Route22Name:
-	db "Route 22@"
+	db "ROUTE 22@"
 Route23Name:
-	db "Route 23@"
+	db "ROUTE 23@"
 Route24Name:
-	db "Route 24@"
+	db "ROUTE 24@"
 Route25Name:
-	db "Route 25@"
+	db "ROUTE 25@"
 ViridianForestName:
-	db "Viridian_Forest@"
+	db "VIRIDIAN_FOREST@"
 MountMoonName:
-	db "Mt. Moon@"
+	db "MT. MOON@"
 MountMoonSquareName:
-	db "Mt. Moon_Square@"
+	db "MT. MOON_SQUARE@"
 RockTunnelName:
-	db "Rock Tunnel@"
+	db "ROCK TUNNEL@"
 SeaCottageName:
-	db "Sea Cottage@"
+	db "SEA COTTAGE@"
 SSAnneName:
-	db "S.S. Anne@"
+	db "S.S. ANNE@"
 PokemonLeagueName:
-	db "#mon_League@"
+	db "#MON_LEAGUE@"
 UndergroundPathName:
-	db "Underground_Path@"
+	db "UNDERGROUND_PATH@"
 PokemonTowerName:
-	db "#mon_Tower@"
+	db "#MON_TOWER@"
 SeafoamIslandsName:
-	db "Seafoam_Islands@"
+	db "SEAFOAM_ISLANDS@"
 VictoryRoadName:
-	db "Victory_Road@"
+	db "VICTORY_ROAD@"
 DiglettsCaveName:
-	db "Diglett's_Cave@"
+	db "DIGLETT'S_CAVE@"
 RocketHQName:
-	db "Team Rocket_HQ@"
+	db "TEAM ROCKET_HQ@"
 SilphCoName:
-	db "Silph Co.@"
+	db "SILPH CO.@"
 PokemonMansionName:
-	db "#mon_Mansion@"
+	db "#MON_MANSION@"
 SafariZoneName:
-	db "Safari Zone@"
+	db "SAFARI ZONE@"
 CeruleanCaveName:
-	db "Cerulean_Cave@"
+	db "CERULEAN_CAVE@"
 PowerPlantName:
-	db "Power Plant@"
+	db "POWER PLANT@"

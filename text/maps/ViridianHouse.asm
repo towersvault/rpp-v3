@@ -10,14 +10,14 @@ _ViridianHouseText1::
 
 _ViridianHouseText2::
 	text "My Daddy loves"
-	line "#mon too."
+	line "#MON too."
 	done
 
 _ViridianHouseText_1d5b1::
-	text "Speary: Tetweet!"
+	text "SPEARY: Tetweet!"
 	done
 
 _ViridianHouseText4::
-	text "Spearow"
-	line "Name: Speary"
+	text "SPEAROW"
+	line "Name: SPEARY"
 	done

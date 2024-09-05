@@ -1,15 +1,15 @@
 _NameRaterText_1dab3::
 	text "Hello, hello!"
 	line "I am the official"
-	cont "Name Rater!"
+	cont "NAME RATER!"
 
 	para "Want me to rate"
 	line "the nicknames of"
-	cont "your #mon?"
+	cont "your #MON?"
 	done
 
 _NameRaterText_1dab8::
-	text "Which #mon"
+	text "Which #MON"
 	line "should I look at?"
 	prompt
 
@@ -32,7 +32,7 @@ _NameRaterText_1dac2::
 	prompt
 
 _NameRaterText_1dac7::
-	text "OK! This #mon"
+	text "OK! This #MON"
 	line "has been renamed"
 	cont "@"
 	TX_RAM wBuffer

@@ -1,28 +1,28 @@
 _MtMoonPokecenterText1::
-	text "I've 6 # Balls"
+	text "I've 6 # BALLs"
 	line "set in my belt."
 
 	para "At most, you can"
-	line "carry 6 #mon."
+	line "carry 6 #MON."
 	done
 
 _MtMoonPokecenterText3::
-	text "Team Rocket"
-	line "attacks Cerulean"
+	text "TEAM ROCKET"
+	line "attacks CERULEAN"
 	cont "citizens..."
 
-	para "Team Rocket is"
+	para "TEAM ROCKET is"
 	line "always in the"
 	cont "news!"
 	done
 
 _MagikarpSalesmanText1::
-	text "Man: Hello, there!"
+	text "MAN: Hello, there!"
 	line "Have I got a deal"
 	cont "just for you!"
 
 	para "I'll let you have"
-	line "a swell Magikarp"
+	line "a swell MAGIKARP"
 	cont "for just ¥500!"
 	cont "What do you say?"
 	done
@@ -39,7 +39,7 @@ _MagikarpSalesmanNoMoneyText::
 	done
 
 _MagikarpSalesmanText2::
-	text "Man: Well, I don't"
+	text "MAN: Well, I don't"
 	line "give refunds!"
 	done
 

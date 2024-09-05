@@ -1,6 +1,6 @@
 _VermilionGymText_5cb6d::
 	text "Ten-hut! Welcome"
-	line "to Vermilion Gym!"
+	line "to VERMILION GYM!"
 
 	para "Will you look at"
 	line "that, a pint-size"
@@ -12,7 +12,7 @@ _VermilionGymText_5cb6d::
 	cont "on with your puny"
 	cont "power!"
 
-	para "A #mon battle"
+	para "A #MON battle"
 	line "is war! I'll show"
 	cont "you, civilian!"
 

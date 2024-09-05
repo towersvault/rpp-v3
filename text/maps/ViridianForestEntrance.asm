@@ -1,6 +1,6 @@
 _ViridianForestEntranceText1::
 	text "Are you going to"
-	line "Viridian Forest?"
+	line "VIRIDIAN FOREST?"
 	cont "Be careful, it's"
 	cont "a natural maze!"
 	done
@@ -8,9 +8,9 @@ _ViridianForestEntranceText1::
 _ViridianForestEntranceText2::
 	text "You have to roam"
 	line "far to get new"
-	cont "kinds of #mon."
+	cont "kinds of #MON."
 
 	para "Look for other"
 	line "types outside of"
-	cont "Viridian Forest."
+	cont "VIRIDIAN FOREST."
 	done

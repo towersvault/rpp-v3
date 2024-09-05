@@ -5,6 +5,6 @@ _CeladonMansion1Text1::
 	done
 
 _CeladonMansion1Text5::
-	text "Celadon Mansion"
+	text "CELADON MANSION"
 	line "Manager's Suite"
 	done

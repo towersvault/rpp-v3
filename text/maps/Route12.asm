@@ -1,17 +1,17 @@
 _Route12Text1::
-	text "A sleeping #mon"
+	text "A sleeping #MON"
 	line "blocks the way!"
 	done
 
 _Route12Text13::
-	text "Snorlax woke up!"
+	text "SNORLAX woke up!"
 
 	para "It attacked in a"
 	line "grumpy rage!"
 	done
 
 _Route12Text14::
-	text "Snorlax calmed"
+	text "SNORLAX calmed"
 	line "down! With a big"
 	cont "yawn, it returned"
 	cont "to the mountains!"
@@ -44,14 +44,14 @@ _Route12EndBattleText2::
 	prompt
 
 _Route12AfterBattleText2::
-	text "With a better Rod,"
+	text "With a better ROD,"
 	line "I could catch"
-	cont "better #mon!"
+	cont "better #MON!"
 	done
 
 _Route12BattleText3::
 	text "Have you found a"
-	line "Moon Stone?"
+	line "MOON STONE?"
 	done
 
 _Route12EndBattleText3::
@@ -64,12 +64,12 @@ IF DEF(_HARD)
 ELSE
 	text "I could have made"
 ENDC
-	line "my #mon evolve"
-	cont "with Moon Stone!"
+	line "my #MON evolve"
+	cont "with MOON STONE!"
 	done
 
 _Route12BattleText4::
-	text "Poison is my"
+	text "POISON is my"
 	line "specialty!"
 	done
 
@@ -85,7 +85,7 @@ _Route12AfterBattleText4::
 
 _Route12BattleText5::
 	text "The Fishing Fool"
-	line "vs. #mon Kid!"
+	line "vs. #MON Kid!"
 	done
 
 _Route12EndBattleText5::
@@ -94,7 +94,7 @@ _Route12EndBattleText5::
 
 _Route12AfterBattleText5::
 	text "You beat me at"
-	line "#mon, but I'm"
+	line "#MON, but I'm"
 	cont "good at fishing!"
 	done
 
@@ -124,17 +124,17 @@ _Route12EndBattleText7::
 	prompt
 
 _Route12AfterBattleText7::
-	text "I catch Magikarp"
+	text "I catch MAGIKARP"
 	line "all the time, but"
 	cont "they're so weak!"
 	done
 
 _Route12Text11::
-	text "Route 12"
-	line "North to Lavender"
+	text "ROUTE 12"
+	line "North to LAVENDER"
 	done
 
 _Route12Text12::
-	text "Silence Bridge"
-	line "Sport Fishing Area"
+	text "SILENCE BRIDGE"
+	line "SPORT FISHING AREA"
 	done

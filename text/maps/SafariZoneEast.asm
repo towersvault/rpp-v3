@@ -1,9 +1,9 @@
 _SafariZoneEastText5::
-	text "Rest House"
+	text "REST HOUSE"
 	done
 
 _SafariZoneEastText6::
-	text "Trainer Tips"
+	text "TRAINER TIPS"
 
 	para "The remaining time"
 	line "declines only"
@@ -11,7 +11,7 @@ _SafariZoneEastText6::
 	done
 
 _SafariZoneEastText7::
-	text "Area 1 - East"
+	text "AREA 1 - EAST"
 	
-	para "North: Area 2"
+	para "NORTH: AREA 2"
 	done

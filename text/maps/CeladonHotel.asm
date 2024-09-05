@@ -1,5 +1,5 @@
 _CeladonHotelText1::
-	text "#mon? No, this"
+	text "#MON? No, this"
 	line "is a hotel for"
 	cont "people."
 
@@ -11,7 +11,7 @@ _CeladonHotelText2::
 	line "with my brother"
 	cont "and boy friend."
 
-	para "Celadon is such a"
+	para "CELADON is such a"
 	line "pretty city!"
 	done
 

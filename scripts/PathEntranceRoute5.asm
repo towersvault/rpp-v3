@@ -20,4 +20,4 @@ UndergroundPathEntranceRoute5Text1:
 	ret
 
 Trader3Name:
-	db "Sally@"
+	db "SALLY@"

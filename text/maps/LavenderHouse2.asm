@@ -1,21 +1,21 @@
 _LavenderHouse2Text1::
-	text "Cubone: Kyarugoo!@@"
+	text "CUBONE: Kyarugoo!@@"
 
 _LavenderHouse2Text_1d9dc::
 	text "I hate those"
-	line "horrible Rockets!"
+	line "horrible ROCKETs!"
 
-	para "That poor Cubone's"
+	para "That poor CUBONE's"
 	line "mother..."
 
 	para "It was killed"
 	line "trying to escape"
-	cont "from Team Rocket!"
+	cont "from TEAM ROCKET!"
 	done
 
 _LavenderHouse2Text_1d9e1::
-	text "The Ghost of"
-	line "#mon Tower is"
+	text "The GHOST of"
+	line "#MON TOWER is"
 	cont "gone!"
 
 	para "Someone must have"

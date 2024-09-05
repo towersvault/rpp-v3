@@ -31,7 +31,7 @@ _RockTunnel2AfterBattleText3::
 
 _RockTunnel2BattleText4::
 	text "You have a"
-	line "#dex?"
+	line "#DEX?"
 	cont "I want one too!"
 	done
 
@@ -42,7 +42,7 @@ _RockTunnel2EndBattleText4::
 
 _RockTunnel2AfterBattleText4::
 	text "When you finish"
-	line "your #dex, can"
+	line "your #DEX, can"
 	cont "I have it?"
 	done
 
@@ -60,11 +60,11 @@ _RockTunnel2AfterBattleText5::
 	text "Cosplayers dress"
 	line "up as anime"
 	cont "characters and"
-    cont "#mon for fun."
+    cont "#MON for fun."
 	done
 
 _RockTunnel2BattleText6::
-	text "My #mon"
+	text "My #MON"
 	line "techniques will"
 	cont "leave you crying!"
 	done
@@ -78,7 +78,7 @@ _RockTunnel2EndBattleText6::
 _RockTunnel2AfterBattleText6::
 	text "In mountains,"
 	line "you'll often find"
-	cont "rock-type #mon."
+	cont "rock-type #MON."
 	done
 
 _RockTunnel2BattleText7::
@@ -93,7 +93,7 @@ _RockTunnel2EndBattleText7::
 
 _RockTunnel2AfterBattleText7::
 	text "I like tiny"
-	line "#mon, big ones"
+	line "#MON, big ones"
 	cont "are too scary!"
 	done
 

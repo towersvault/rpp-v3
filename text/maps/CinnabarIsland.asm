@@ -4,8 +4,8 @@ _CinnabarIslandText8::
 	done
 
 _CinnabarIslandText1::
-	text "Cinnabar Gym's"
-	line "Blaine is an odd"
+	text "CINNABAR GYM's"
+	line "BLAINE is an odd"
 	cont "man who has lived"
 	cont "here for decades."
 	done
@@ -18,20 +18,20 @@ _CinnabarIslandText2::
 	jp TextScriptEnd
 
 _CinnabarIslandText3::
-	text "Cinnabar Island"
+	text "CINNABAR ISLAND"
 	
 	para "The fiery town of"
 	line "burning desire"
 	done
 
 _CinnabarIslandText6::
-	text "#mon Lab"
+	text "#MON Lab"
 	done
 
 _CinnabarIslandText7::
-	text "Cinnabar Island"
-	line "#mon Gym"
-	cont "Leader: Blaine"
+	text "CINNABAR ISLAND"
+	line "#MON GYM"
+	cont "LEADER: BLAINE"
 
 	para "The hot-headed"
 	line "quiz master!"

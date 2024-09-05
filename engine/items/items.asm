@@ -1514,11 +1514,11 @@ VitaminNoEffectText:
 	db "@"
 
 VitaminText:
-	db "Health@"
-	db "Attack@"
-	db "Defense@"
-	db "Speed@"
-	db "Special@"
+	db "HEALTH@"
+	db "ATTACK@"
+	db "DEFENSE@"
+	db "SPEED@"
+	db "SPECIAL@"
 
 ItemUseBait:
 	ld hl,ThrewBaitText

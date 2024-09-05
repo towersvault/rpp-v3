@@ -1,5 +1,5 @@
 _WardenGibberishText1::
-	text "Warden: Hif fuff"
+	text "WARDEN: Hif fuff"
 	line "hefifoo!"
 
 	para "Ha lof ha feef ee"
@@ -19,17 +19,17 @@ _WardenGibberishText3::
 
 _WardenTeethText1::
 	text "[PLAYER] gave the"
-	line "Gold Teeth to the"
-	cont "Warden!@@"
+	line "GOLD TEETH to the"
+	cont "WARDEN!@@"
 
 _WardenTeethText2::
 	db $0
-	para "The Warden popped"
+	para "The WARDEN popped"
 	line "in his teeth!"
 	prompt
 
 _WardenThankYouText::
-	text "Warden: Thanks,"
+	text "WARDEN: Thanks,"
 	line "kid! No one could"
 	cont "understand a word"
 	cont "that I said."
@@ -48,23 +48,23 @@ _ReceivedHM04Text::
 	text "!@@"
 
 _HM04ExplanationText::
-	text "Warden: HM04"
+	text "WARDEN: HM04"
 	line "teaches Strength!"
 
-	para "It lets #mon"
+	para "It lets #MON"
 	line "move boulders"
 	cont "when you're out-"
 	cont "side of battle."
 
 	para "Oh yes, did you"
-	line "find Secret House"
-	cont "in Safari Zone?"
+	line "find SECRET HOUSE"
+	cont "in SAFARI ZONE?"
 
 	para "If you do, you"
 	line "win an HM!"
 
 	para "I hear it's the"
-	line "rare Surf HM."
+	line "rare SURF HM."
 	done
 
 _HM04NoRoomText::
@@ -73,11 +73,11 @@ _HM04NoRoomText::
 	done
 
 _FuchsiaHouse2Text_75176::
-	text "#mon photos"
+	text "#MON photos"
 	line "and fossils."
 	done
 
 _FuchsiaHouse2Text_7517b::
-	text "Old #mon"
+	text "Old #MON"
 	line "merchandise."
 	done
