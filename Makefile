@@ -95,8 +95,8 @@ endif
 # $(pokeblue_obj): %_blue.o: %.asm $$(dep)
 # 	$(RGBDS_DIR)rgbasm -D _BLUE -h -o $@ $*.asm
 
-pokered_opt  = -Cjv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
-pokeblue_opt = -Cjv -k 01 -l 0x33 -m 0x13 -p 0 -r 03 -t "POKEMON RED"
+pokered_opt  = -Cjv -k 01 -l 0x33 -m 0x1B -p 0 -r 03 -t "POKEMON RED"
+pokeblue_opt = -Cjv -k 01 -l 0x33 -m 0x1B -p 0 -r 03 -t "POKEMON RED"
 
 %.gbc: $$(%_obj)
 	$(RGBDS_DIR)rgblink -n $*.sym -o $@ $^
