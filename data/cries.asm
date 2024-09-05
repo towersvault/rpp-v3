@@ -205,4 +205,7 @@ db $04, $FF, $30; Magby
 db $20, $08, $40; Mime Jr
 db $14, $0A, $C0; Happiny
 db $05, $55, $01; Munchlax
+db $2D, $8a, $00; Zigzagoon
+db $2D, $6b, $00; Linoone
+db $41, $00, $00; Ho-Oh
 

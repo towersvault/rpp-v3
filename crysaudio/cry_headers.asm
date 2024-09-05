@@ -1229,13 +1229,13 @@ MuchlaxCryHeader:
 	dw $081 ; length
 
 ZigzagoonCryHeader:
-	dw $2e  ; cry id
+	dw $2d  ; cry id
 	db $8a  ; pitch
 	db $00  ; echo
 	dw $0b8 ; length
 
 LinooneCryHeader:
-	dw $2e  ; cry id
+	dw $2d  ; cry id
 	db $6b  ; pitch
 	db $00  ; echo
 	dw $102 ; length
