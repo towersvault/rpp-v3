@@ -1,7 +1,7 @@
 _Route18BattleText1::
 	text "I always check"
 	line "every grassy area"
-	cont "for new #MON."
+	cont "for new #mon."
 	done
 
 _Route18EndBattleText1::
@@ -10,7 +10,7 @@ _Route18EndBattleText1::
 
 _Route18AfterBattleText1::
 	text "I wish I had a"
-	line "BIKE!"
+	line "Bike!"
 	done
 
 _Route18BattleText2::
@@ -25,7 +25,7 @@ _Route18EndBattleText2::
 
 _Route18AfterBattleText2::
 	text "I also collect sea"
-	line "#MON on"
+	line "#mon on"
 	cont "weekends!"
 	done
 
@@ -40,18 +40,18 @@ _Route18EndBattleText3::
 
 _Route18AfterBattleText3::
 	text "This is my fave"
-	line "#MON hunting"
+	line "#mon hunting"
 	cont "area!"
 	done
 
 _Route18Text4::
-	text "ROUTE 18"
-	line "FUCHSIA CITY -"
-	cont "CELADON CITY"
+	text "Route 18"
+	line "Fuchsia City -"
+	cont "Celadon City"
 	done
 
 _Route18Text5::
-	text "CYCLING ROAD"
+	text "Cycling Road"
 	
 	para "No pedestrians"
 	line "permitted!"

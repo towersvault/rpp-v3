@@ -2,9 +2,9 @@ _IndigoPlateauLobbyText2::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "At #MON LEAGUE,"
+	para "At #mon League,"
 	line "you have to face"
-	cont "the ELITE FOUR in"
+	cont "the Elite Four in"
 	cont "succession."
 
 	para "If you lose, you"

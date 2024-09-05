@@ -108,7 +108,7 @@ Lab4Text2:
 	jp TextScriptEnd
 	
 Trader9Name:
-	db "ROSS@"
+	db "Ross@"
 
 LoadFossilItemAndMonNameBank1D:
 	jpba LoadFossilItemAndMonName

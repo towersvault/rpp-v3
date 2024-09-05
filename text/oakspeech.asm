@@ -1,41 +1,41 @@
 _OakSpeechText1::
 	text "Hello there!"
 	line "Welcome to the"
-	cont "world of #MON!"
+	cont "world of #mon!"
 
-	para "My name is OAK!"
+	para "My name is Oak!"
 	line "People call me"
-	cont "the #MON PROF!"
+	cont "the #mon Prof!"
 	prompt
 
 _OakSpeechText2A::
 	text "This world is"
 	line "inhabited by"
 	cont "creatures called"
-	cont "#MON!@@"
+	cont "#mon!@@"
 
 _OakSpeechText2B::
-	text $51,"People and #MON"
+	text $51,"People and #mon"
 	line "live together by"
 
 	para "supporting each"
 	line "other."
 
 	para "Some people play"
-	line "with #MON,"
+	line "with #mon,"
 	cont "some battle with"
 	cont "them."
 
 	para "But we don't know"
 	line "everything about"
-	cont "#MON yet."
+	cont "#mon yet."
 
 	para "There are still"
 	line "many mysteries to"
 	cont "solve."
 
 	para "That's why I study"
-	line "#MON daily."
+	line "#mon daily."
 	prompt
 
 _IntroducePlayerText::
@@ -64,25 +64,25 @@ _OakSpeechText3::
 	text "[PLAYER]!"
 
 	para "Your very own"
-	line "#MON legend is"
+	line "#mon legend is"
 	cont "about to unfold!"
 
 	para "A world of dreams"
 	line "and adventures"
-	cont "with #MON"
+	cont "with #mon"
 	cont "awaits...Let's go!"
 	done
 
 _BoyGirlText::
-	text "Are you a BOY or"
-	line "a GIRL?"
+	text "Play as a boy, or"
+	line "as a girl?"
 	done
 	
 _ShouldMonsObeyText::
 	text "Should traded"
-	line "#MON behave"
+	line "#mon behave"
 	cont "like caught"
-	cont "#MON?"
+	cont "#mon?"
 	done
 
 _YourNameIsText2::

@@ -1,5 +1,5 @@
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "#mon Quiz!"
 
 	para "Get it right and"
 	line "the door opens!"
@@ -8,24 +8,24 @@ _CinnabarGymQuizIntroText::
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "SLOWPOKE evolves"
-	line "into SLOWKING?"
+	text "Slowpoke evolves"
+	line "into Slowking?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "Can BLASTOISE use"
-	line "SKY ATTACK?"
+	text "Can Blastoise use"
+	line "Sky Attack?"
 	done
 
 _CinnabarQuizQuestionsText3::
 	text "Are there 9"
-	line "EEVEE-lutions?"
+	line "Eevee-lutions?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Is PSYCHIC-type"
+	text "Is Psychic-type"
 	line "super effective"
-	cont "against DARK-type?"
+	cont "against Dark-type?"
 	done
 
 _CinnabarQuizQuestionsText5::
@@ -35,7 +35,7 @@ _CinnabarQuizQuestionsText5::
 
 _CinnabarQuizQuestionsText6::
 	text "TM28 contains"
-	line "TOMBSTONER?"
+	line "Tombstoner?"
 	done
 
 _CinnabarGymQuizCorrectText::

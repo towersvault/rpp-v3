@@ -4,7 +4,7 @@ _MtMoon3BattleText1::
 	cont "aren't mine."
 
 	para "I'm trying to"
-	line "find OLD AMBER."
+	line "find Old Amber."
 	done
 
 _MtMoon3EndBattleText1::
@@ -14,18 +14,18 @@ _MtMoon3EndBattleText1::
 	prompt
 
 _MtMoon3AfterBattleText1::
-	text "The DOME FOSSIL"
-	line "is KABUTO, and"
-	cont "the HELIX FOSSIL"
-	cont "is OMANYTE."
+	text "The Dome Fossil"
+	line "is Kabuto, and"
+	cont "the Helix Fossil"
+	cont "is Omanyte."
 	
 	para "They're both cool"
 	line "and all, but I"
-	cont "want AERODACTYL."
+	cont "want Aerodactyl."
 	
 	para "That's why I'm"
-	line "looking for OLD"
-	cont "AMBER!"
+	line "looking for Old"
+	cont "Amber!"
 	done
 
 _MtMoon3BattleText2::
@@ -98,7 +98,7 @@ _MtMoon3EndBattleText5::
 	prompt
 
 _MtMoon3AfterBattleText5::
-	text "#MON lived"
+	text "#mon lived"
 	line "here long before"
 	cont "people came."
 	done

@@ -3,7 +3,7 @@ _CeruleanGymText_5c7be::
 	line "face!"
 
 	para "What's your policy"
-	line "on #MON? What"
+	line "on #mon? What"
 	cont "is your approach?"
 
 	para "The saddest part"
@@ -13,33 +13,33 @@ _CeruleanGymText_5c7be::
 	para "I think you know"
 	line "what I'm saying."
 
-	para "I'm MISTY, the"
-	line "GYM LEADER, and"
+	para "I'm Misty, the"
+	line "Gym Leader, and"
 	cont "this is as far as"
 	cont "you go!"
 	done
 
 _CeruleanGymText_5c7c3::
 	text "TM11 teaches"
-	line "WATER PULSE!"
+	line "Water Pulse!"
 
 	para "Use it on an"
-	line "aquatic #MON!"
+	line "aquatic #mon!"
 	done
 
 _CeruleanGymText_5c7c8::
-	text "The CASCADEBADGE"
-	line "makes all #MON"
+	text "The CascadeBadge"
+	line "makes all #mon"
 	cont "up to Lv40 obey!"
 
 	para "That includes"
 	line "even outsiders!"
 
 	para "There's more, you"
-	line "can now use CUT"
+	line "can now use Cut"
 	cont "anytime!"
 
-	para "You can CUT down"
+	para "You can Cut down"
 	line "small bushes to"
 	cont "open new paths!"
 
@@ -63,11 +63,11 @@ _CeruleanGymText_5c7d8::
 	para "All right!"
 
 	para "You can have the"
-	line "CASCADEBADGE to"
+	line "CascadeBadge to"
 	cont "show you beat me!@@"
 
 _CeruleanGymBattleText1::
-	text "You want MISTY?"
+	text "You want Misty?"
 	line "Not a chance!"
 
 	para "You'll have to go"
@@ -100,7 +100,7 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
+	text "Misty is going to"
 	line "keep improving!"
 
 	para "She won't lose to"
@@ -113,20 +113,20 @@ _CeruleanGymText_5c82a::
 
 	para "Here's my advice!"
 
-	para "The LEADER, MISTY,"
+	para "The Leader, Misty,"
 	line "is a pro who uses"
-	cont "water #MON!"
+	cont "water #mon!"
 
 	para "You can drain all"
 	line "their water with"
-	cont "plant #MON!"
+	cont "plant #mon!"
 
 	para "Or, zap them with"
 	line "electricity!"
 	done
 
 _CeruleanGymText_5c82f::
-	text "You beat MISTY!"
+	text "You beat Misty!"
 	line "What'd I tell ya?"
 
 	para "You and me, kid,"

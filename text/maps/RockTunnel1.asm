@@ -9,7 +9,7 @@ _RockTunnel1EndBattleText1::
 	prompt
 
 _RockTunnel1AfterBattleText1::
-	text "Watch for ONIX!"
+	text "Watch for Onix!"
 	line "It can put the"
 	cont "squeeze on you!"
 	done
@@ -27,7 +27,7 @@ _RockTunnel1EndBattleText2::
 
 _RockTunnel1AfterBattleText2::
 	text "That sleeping"
-	line "#MON on ROUTE"
+	line "#mon on Route"
 	cont "12 forced me to"
 	cont "take this detour."
 	done
@@ -48,7 +48,7 @@ _RockTunnel1AfterBattleText3::
 	done
 
 _RockTunnel1BattleText4::
-	text "#MON fight!"
+	text "#mon fight!"
 	line "Ready, go!"
 	done
 
@@ -58,7 +58,7 @@ _RockTunnel1EndBattleText4::
 
 _RockTunnel1AfterBattleText4::
 	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	line "a Zubat as I go!"
 	done
 
 _RockTunnel1BattleText5::
@@ -72,18 +72,18 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
+	text "I saw a Machop"
 	line "in this tunnel!"
 	done
 
 _RockTunnel1BattleText6::
 	text "I came this far"
-	line "for #MON!"
+	line "for #mon!"
 	done
 
 _RockTunnel1EndBattleText6::
 	text "I'm out of"
-	line "#MON!"
+	line "#mon!"
 	prompt
 
 _RockTunnel1AfterBattleText6::
@@ -92,7 +92,7 @@ _RockTunnel1AfterBattleText6::
 	done
 
 _RockTunnel1BattleText7::
-	text "You have #MON!"
+	text "You have #mon!"
 	line "Let's start!"
 	done
 
@@ -106,7 +106,7 @@ _RockTunnel1AfterBattleText7::
 	done
 
 _RockTunnel1Text8::
-	text "ROCK TUNNEL"
-	line "LAVENDER TOWN -"
-	cont "CERULEAN CITY"
+	text "Rock Tunnel"
+	line "Lavender Town -"
+	cont "Cerulean City"
 	done

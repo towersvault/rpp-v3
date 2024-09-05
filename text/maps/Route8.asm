@@ -1,6 +1,6 @@
 _Route8BattleText1::
 	text "You look good at"
-	line "#MON, but"
+	line "#mon, but"
 	cont "how's your chem?"
 	done
 
@@ -40,16 +40,16 @@ _Route8EndBattleText3::
 
 _Route8AfterBattleText3::
 IF DEF(_HARD)
-	text "Go with MUK"
+	text "Go with Muk"
 ELSE
-	text "Go with GRIMER"
+	text "Go with Grimer"
 ENDC
 	line "first...and..."
 	cont "...and...then..."
 	done
 
 _Route8BattleText4::
-	text "I like NIDORAN, so"
+	text "I like Nidoran, so"
 	line "I collect them!"
 	done
 
@@ -58,7 +58,7 @@ _Route8EndBattleText4::
 	prompt
 
 _Route8AfterBattleText4::
-	text "When #MON grow"
+	text "When #mon grow"
 	line "up they get ugly!"
 	cont "They shouldn't"
 	cont "evolve!"
@@ -66,7 +66,7 @@ _Route8AfterBattleText4::
 
 _Route8BattleText5::
 	text "School is fun, but"
-	line "so are #MON."
+	line "so are #mon."
 	done
 
 _Route8EndBattleText5::
@@ -77,7 +77,7 @@ _Route8EndBattleText5::
 _Route8AfterBattleText5::
 	text "We're stuck here"
 	line "because of the"
-	cont "gates at SAFFRON."
+	cont "gates at Saffron."
 	done
 
 _Route8BattleText6::
@@ -109,7 +109,7 @@ _Route8EndBattleText7::
 	prompt
 
 _Route8AfterBattleText7::
-	text "SAFFRON's gate-"
+	text "Saffron's gate-"
 	line "keeper won't let"
 	cont "us through."
 	cont "He's so mean!"
@@ -127,7 +127,7 @@ _Route8EndBattleText8::
 
 _Route8AfterBattleText8::
 	text "Gambling and"
-	line "#MON are like"
+	line "#mon are like"
 	cont "eating peanuts!"
 	cont "Just can't stop!"
 	done
@@ -135,7 +135,7 @@ _Route8AfterBattleText8::
 _Route8BattleText9::
 	text "What's a cute,"
 	line "round and fluffy"
-	cont "#MON?"
+	cont "#mon?"
 	done
 
 _Route8EndBattleText9::
@@ -143,9 +143,9 @@ _Route8EndBattleText9::
 
 	para "Don't be so mean"
 IF DEF(_HARD)
-	line "to my CLEFABLE!"
+	line "to my Clefable!"
 ELSE
-	line "to my CLEFAIRY!"
+	line "to my Clefairy!"
 ENDC
 	prompt
 
@@ -155,17 +155,17 @@ IF DEF(_HARD)
 ELSE
 	text "I heard that"
 ENDC
-	line "CLEFAIRY evolves"
+	line "Clefairy evolves"
 	cont "when it's exposed"
 IF DEF(_HARD)
-	cont "to a MOON STONE?"
+	cont "to a Moon Stone?"
 ELSE
-	cont "to a MOON STONE."
+	cont "to a Moon Stone."
 ENDC
 	done
 
 _Route8Text10::
-	text "UNDERGROUND PATH"
-	line "LAVENDER TOWN -"
-	cont "CELADON CITY"
+	text "Underground Path"
+	line "Lavender Town -"
+	cont "Celadon City"
 	done

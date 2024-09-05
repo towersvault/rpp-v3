@@ -1,6 +1,6 @@
 _LavenderTownText_4413c::
 	text "Do you believe in"
-	line "GHOSTs?"
+	line "Ghosts?"
 	done
 
 _LavenderTownText_44141::
@@ -20,47 +20,47 @@ _LavenderTownText_44146::
 _LavenderTownText2::
 	text "This town is known"
 	line "as the grave site"
-	cont "of #MON."
+	cont "of #mon."
 
 	para "Memorial services"
 	line "are held in"
-	cont "#MON TOWER."
+	cont "#mon Tower."
 	done
 
 _LavenderTownText3::
 	text "Ghosts appeared"
-	line "in #MON TOWER."
+	line "in #mon Tower."
 
 	para "I think they're"
 	line "the spirits of"
-	cont "#MON that the"
-	cont "ROCKETs killed."
+	cont "#mon that the"
+	cont "Rockets killed."
 	done
 
 _LavenderTownText4::
-	text "LAVENDER TOWN"
+	text "Lavender Town"
 	
 	para "The noble purple"
 	line "town"
 	done
 
 _LavenderTownText5::
-	text "NEW SILPH SCOPE!"
+	text "New Silph Scope!"
 
 	para "Make the invisible"
 	line "plain to see!"
 
-	para "SILPH CO."
+	para "Silph Co."
 	done
 
 _LavenderTownText8::
-	text "LAVENDER VOLUNTEER"
-	line "#MON HOUSE"
+	text "Lavender Volunteer"
+	line "#mon House"
 	done
 
 _LavenderTownText9::
 	text "May the souls of"
-	line "#MON rest easy"
+	line "#mon rest easy"
 	
-	para "#MON TOWER"
+	para "#mon Tower"
 	done

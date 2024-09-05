@@ -1,5 +1,5 @@
 _SilphCo8Text_565be::
-	text "I wonder if SILPH"
+	text "I wonder if Silph"
 	line "is finished..."
 	done
 
@@ -35,8 +35,8 @@ _SilphCo8EndBattleText2::
 
 _SilphCo8AfterBattleText2::
 	text "So, what do you"
-	line "think of SILPH"
-	cont "BUILDING's maze?"
+	line "think of Silph"
+	cont "Building's maze?"
 	done
 
 _SilphCo8BattleText3::

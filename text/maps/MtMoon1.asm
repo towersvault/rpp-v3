@@ -54,13 +54,13 @@ _MtMoon1BattleText5::
 	done
 
 _MtMoon1EndBattleText5::
-	text "My #MON won't"
+	text "My #mon won't"
 	line "do!"
 	prompt
 
 _MtMoon1AfterBattleText5::
 	text "I have to find"
-	line "stronger #MON."
+	line "stronger #mon."
 	done
 
 _MtMoon1BattleText6::
@@ -92,13 +92,13 @@ _MtMoon1EndBattleText7::
 _MtMoon1AfterBattleText7::
 	text "I saw them! I'm"
 	line "sure they're from"
-	cont "TEAM ROCKET!"
+	cont "Team Rocket!"
 	done
 
 _MtMoon1BattleText8::
 	text "Go through this"
 	line "cave to get to"
-	cont "CERULEAN CITY!"
+	cont "Cerulean City!"
 	done
 
 _MtMoon1EndBattleText8::
@@ -106,13 +106,13 @@ _MtMoon1EndBattleText8::
 	prompt
 
 _MtMoon1AfterBattleText8::
-	text "ZUBAT is tough!"
+	text "Zubat is tough!"
 	line "But, it can be"
 	cont "useful if you"
 	cont "catch one."
 	done
 
 _MtMoon1Text14::
-	text "Beware! ZUBAT is"
+	text "Beware! Zubat is"
 	line "a blood sucker!"
 	done
