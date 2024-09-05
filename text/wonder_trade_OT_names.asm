@@ -398,7 +398,7 @@ WonderTradeOTNames2:
 	db "AOOOO@@@" ; $8a
 	db "JIMMY@@@" ; $8b
 	db "CLY@@@@@" ; $8c
-	db "LI'L D@@@" ; $8d
+	db "LI'L D@@" ; $8d
 	db "ARTY@@@@" ; $8e
 	db "ABE@@@@@" ; $8f
 	db "BABA@@@@" ; $90
