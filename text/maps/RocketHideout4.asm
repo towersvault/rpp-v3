@@ -11,7 +11,7 @@ _RocketHideout4Text_4557f::
 
 _RocketHideout4Text_45584::
 	text "I see that you"
-	line "raise #MON"
+	line "raise #mon"
 	cont "with utmost care."
 
 	para "A child like you"
@@ -30,7 +30,7 @@ _RocketHideout4BattleText2::
 	text "E-he-he-he! Look"
 	line "at this! A twerp"
 	cont "thinking they can"
-	cont "take on the BOSS!"
+	cont "take on the Boss!"
 	done
 
 _RocketHideout4EndBattleText2::
@@ -41,7 +41,7 @@ _RocketHideout4EndBattleText2::
 _RocketHide4AfterBattleText2::
 	text "Do you have"
 	line "something against"
-	cont "TEAM ROCKET?"
+	cont "Team Rocket?"
 	done
 
 _RocketHideout4BattleText3::
@@ -49,7 +49,7 @@ _RocketHideout4BattleText3::
 	line "there, you brat!"
 	
 	para "We can't let you"
-	line "bother the BOSS!"
+	line "bother the Boss!"
 	done
 
 _RocketHideout4EndBattleText3::
@@ -58,14 +58,14 @@ _RocketHideout4EndBattleText3::
 	prompt
 
 _RocketHide4AfterBattleText3::
-	text "BOSS! I'm sorry I"
+	text "Boss! I'm sorry I"
 	line "failed you!"
 	done
 
 _RocketHideout4BattleText4::
 	text "The elevator"
 	line "doesn't work? Who"
-	cont "has the LIFT KEY?"
+	cont "has the Lift Key?"
 	done
 
 _RocketHideout4EndBattleText4::
@@ -74,5 +74,5 @@ _RocketHideout4EndBattleText4::
 
 _RocketHideout4Text_455ec::
 	text "Oh no! I dropped"
-	line "the LIFT KEY!"
+	line "the Lift Key!"
 	done

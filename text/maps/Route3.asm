@@ -4,7 +4,7 @@ _Route3Text1::
 	cont "Groan..."
 
 	para "That tunnel from"
-	line "CERULEAN takes a"
+	line "Cerulean takes a"
 	cont "lot out of you!"
 	done
 
@@ -21,17 +21,17 @@ _Route3EndBattleText1::
 
 _Route3AfterBattleText1::
 	text "I should look for"
-	line "#MON outside"
+	line "#mon outside"
 	cont "of forests."
 	done
 
 _Route3BattleText2::
 	text "Hey! Check out my"
-	line "ZIGZAGOON!"
+	line "Zigzagoon!"
 
 	para "He's in the top"
 	line "percentage of"
-	cont "ZIGZAGOON!"
+	cont "Zigzagoon!"
 	done
 
 _Route3EndBattleText2::
@@ -42,8 +42,8 @@ _Route3EndBattleText2::
 _Route3AfterBattleText2::
 	text "Until recently, I"
 	line "never ran into"
-	cont "ZIGZAGOONs around"
-	cont "KANTO..."
+	cont "Zigzagoons around"
+	cont "Kanto..."
 	done
 
 _Route3BattleText3::
@@ -68,15 +68,15 @@ _Route3BattleText4::
 
 _Route3EndBattleText4::
 	text "If I had new"
-	line "#MON, I would"
+	line "#mon, I would"
 	cont "have won!"
 	prompt
 
 _Route3AfterBattleText4::
-	text "If a #MON BOX"
+	text "If a #mon Box"
 	line "on the PC gets"
 	cont "full, just switch"
-	cont "to another BOX!"
+	cont "to another Box!"
 	done
 
 _Route3BattleText5::
@@ -112,7 +112,7 @@ _Route3AfterBattleText6::
 
 _Route3BattleText7::
 	text "You can fight my"
-	line "new #MON!"
+	line "new #mon!"
 	done
 
 _Route3EndBattleText7::
@@ -120,7 +120,7 @@ _Route3EndBattleText7::
 	prompt
 
 _Route3AfterBattleText7::
-	text "Trained #MON"
+	text "Trained #mon"
 	line "are stronger than"
 	cont "the wild ones!"
 	done
@@ -135,12 +135,12 @@ _Route3EndBattleText8::
 	prompt
 
 _Route3AfterBattleText8::
-	text "ROUTE 4 is at the"
-	line "foot of MT. MOON."
+	text "Route 4 is at the"
+	line "foot of Mt. Moon."
 	done
 
 _Route3Text10::
-	text "ROUTE 3"
-	line "PEWTER CITY -"
-	cont "MT. MOON"
+	text "Route 3"
+	line "Pewter City -"
+	cont "Mt. Moon"
 	done

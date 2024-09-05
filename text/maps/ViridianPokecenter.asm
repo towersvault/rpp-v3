@@ -1,7 +1,7 @@
 _ViridianPokeCenterText2::
 _ViridianPokeCenterText1::
 	text "Everything in a"
-	line "#MON CENTER is"
+	line "#mon Center is"
 	cont "completely free"
 	cont "to use."
 
@@ -13,7 +13,7 @@ _ViridianPokeCenterText3::
 	text "The big computer"
 	line "in the middle"
 	cont "accesses the"
-	cont "WONDER TRADE"
+	cont "Wonder Trade"
 	cont "system."
 	
 	para "You should try it"

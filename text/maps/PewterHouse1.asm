@@ -1,12 +1,12 @@
 _PewterHouse1Text1::
-	text "NIDORAN: Bowbow!@@"
+	text "Nidoran: Bowbow!@@"
 
 _PewterHouse1Text2::
 	text "Here you go,"
-	line "NIDORAN!"
+	line "Nidoran!"
 	
 	para "Here's a nice"
-	line "PECHA BERRY for"
+	line "Pecha Berry for"
 	cont "you!"
 	done
 
@@ -14,9 +14,9 @@ _PewterHouse1Text3::
 	text "My son doesn't"
 	line "agree with me on"
 	cont "how to pronounce"
-	cont "PECHA BERRY."
+	cont "Pecha Berry."
 
 	para "He thinks it's"
-	line "like PETCHA, but"
-	cont "I say it's PECCA."
+	line "like Petcha, but"
+	cont "I say it's Pecca."
 	done

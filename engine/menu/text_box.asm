@@ -218,14 +218,14 @@ TextBoxTextAndCoordTable:
 ; note that there is no terminator
 
 BuySellQuitText:
-	db   "BUY"
-	next "SELL"
-	next "QUIT@@"
+	db   "Buy"
+	next "Sell"
+	next "Quit@@"
 
 UseTossText:
-	db   "USE"
-	next "INFO"
-	next "TOSS@"
+	db   "Use"
+	next "Info"
+	next "Toss@"
 
 JapaneseSaveMessageText:
 	db   "きろく"
@@ -236,7 +236,7 @@ JapaneseSpeedOptionsText:
 	next "おそい@"
 
 MoneyText:
-	db "MONEY@"
+	db "Money@"
 
 JapaneseMochimonoText:
 	db "もちもの@"
@@ -246,17 +246,17 @@ JapaneseMainMenuText:
 	next "さいしょから@"
 
 BattleMenuText:
-	db   "FIGHT ",$E1,$E2
-	next "PACK  RUN@"
+	db   "Fight ",$E1,$E2
+	next "Pack  Run@"
 
 SafariZoneBattleMenuText:
-	db   "BALL×       BAIT"
-	next "ROCK        RUN@"
+	db   "Ball×       Bait"
+	next "Rock        Run@"
 
 SwitchStatsCancelText:
-	db   "SWITCH"
-	next "STATS"
-	next "CANCEL@"
+	db   "Switch"
+	next "Stats"
+	next "Cancel@"
 
 JapaneseAhText:
 	db "アッ!@"
@@ -544,26 +544,26 @@ TwoOptionMenuStrings:
 	dw .NoYesMenu
 
 .NoYesMenu
-	db   "NO"
-	next "YES@"
+	db   "No"
+	next "Yes@"
 .YesNoMenu
-	db   "YES"
-	next "NO@"
+	db   "Yes"
+	next "No@"
 .BoyGirlMenu
-	db   "BOY"
-	next "GIRL@"
+	db   "Boy"
+	next "Girl@"
 .SouthEastMenu
-	db   "SOUTH"
-	next "EAST@"
+	db   "South"
+	next "East@"
 .NorthEastMenu
-	db   "NORTH"
-	next "EAST@"
+	db   "North"
+	next "East@"
 .TradeCancelMenu
-	db   "TRADE"
-	next "CANCEL@"
+	db   "Trade"
+	next "Cancel@"
 .HealCancelMenu
-	db   "HEAL"
-	next "CANCEL@"
+	db   "Heal"
+	next "Cancel@"
 
 DisplayFieldMoveMonMenu:
 	xor a
@@ -686,21 +686,21 @@ DisplayFieldMoveMonMenu:
 	jp PlaceString
 
 FieldMoveNames:
-	db "CUT@"
-	db "FLY@"
-	db "DIVE@" ; Unused
-	db "SURF@"
-	db "STRENGTH@"
-	db "FLASH@"
-	db "DIG@"
-	db "TELEPORT@"
-	db "SOFTBOILED@"
-	db "HEADBUTT@"
+	db "Cut@"
+	db "Fly@"
+	db "Dive@" ; Unused
+	db "Surf@"
+	db "Strength@"
+	db "Flash@"
+	db "Dig@"
+	db "Teleport@"
+	db "Softboiled@"
+	db "Headbutt@"
 
 PokemonMenuEntries:
-	db   "STATS"
-	next "SWITCH"
-	next "CANCEL@"
+	db   "Stats"
+	next "Switch"
+	next "Cancel@"
 
 GetMonFieldMoves:
 	ld a, [wWhichPokemon]

@@ -12,9 +12,9 @@ _Mansion1EndBattleText2::
 
 _Mansion1AfterBattleText2::
 	text "If we were back"
-	line "home in HOENN,"
+	line "home in Hoenn,"
 	cont "you'd have earned"
-    cont "a HEATBADGE for"
+    cont "a HeatBadge for"
     cont "that!"
 	done
 

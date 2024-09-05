@@ -1,7 +1,7 @@
 _UGPathRoute7EntranceUnusedText_5d773::
 	text "I want to shop at"
-	line "the DEPT. STORE"
-	cont "in CELADON but..."
+	line "the Dept. Store"
+	cont "in Celadon but..."
 
 	para "There are so many"
 	line "rough looking"
@@ -9,27 +9,27 @@ _UGPathRoute7EntranceUnusedText_5d773::
 	done
 
 _UGPathRoute7EntranceUnusedText_5d778::
-	text "TEAM ROCKET had a"
+	text "Team Rocket had a"
 	line "secret hideout in"
-	cont "CELADON City?"
+	cont "Celadon City?"
 	done
 
 _UGPathRoute7EntranceUnusedText_5d77d::
 	text "You're here to"
-	line "shop in CELADON?"
+	line "shop in Celadon?"
 
 	para "Just step outside"
 	line "and head west!"
 	done
 
 _UGPathRoute7EntranceUnusedText_5d782::
-	text "The UNDERGROUND"
-	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	text "The Underground"
+	line "Path goes beneath"
+	cont "Saffron and leads"
+	cont "to Lavender."
 
 	para "If you're heading"
-	line "to CERULEAN, go"
+	line "to Cerulean, go"
 	cont "to the building"
 	cont "across the road."
 	done

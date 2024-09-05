@@ -1,5 +1,5 @@
 _ViridianForestExitText1::
-	text "Many #MON live"
+	text "Many #mon live"
 	line "only in forests "
 	cont "and caves."
 
@@ -10,7 +10,7 @@ _ViridianForestExitText1::
 
 _ViridianForestExitText2::
 	text "When I was raising"
-	line "my EEVEE in the"
+	line "my Eevee in the"
 	cont "forest, it went"
     cont "and evolved!"
     done

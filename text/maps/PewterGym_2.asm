@@ -3,19 +3,19 @@ _PewterGymText_5c4a3::
 	line "kinds of trainers"
 	cont "in the world!"
 
-	para "Some raise #MON"
+	para "Some raise #mon"
 	line "for fights. Some"
 	cont "see them as pets."
 
 	para "I'm in training to"
-	line "become a #MON"
+	line "become a #mon"
 	cont "breeder."
 
 	para "If you take your"
-	line "#MON training"
+	line "#mon training"
 	cont "seriously, go"
-	cont "visit the GYM in"
-	cont "CERULEAN and test"
+	cont "visit the Gym in"
+	cont "Cerulean and test"
 	cont "your abilities!"
 	done
 
@@ -33,13 +33,13 @@ _TM34ExplanationText::
 	para "A TM contains a"
 	line "technique that"
 	cont "can be taught to"
-	cont "#MON."
+	cont "#mon."
 	
 	para "It can be used"
 	line "again and again!"
 
 	para "TM36 contains"
-	line "ROCK TOMB."
+	line "Rock Tomb."
 
 	para "It reduces your"
 	line "opponent's speed,"
@@ -58,27 +58,27 @@ _PewterGymText_5c4bc::
 
 	para "As proof of your"
 	line "victory, here's"
-	cont "the BOULDERBADGE!"
+	cont "the BoulderBadge!"
 
 	para "[PLAYER] received"
-	line "the BOULDERBADGE!@@"
+	line "the BoulderBadge!@@"
 
 _PewterGymText_5c4c1::
 	db $0
 	para "That's an official"
-	line "#MON LEAGUE"
-	cont "BADGE!"
+	line "#mon League"
+	cont "Badge!"
 IF DEF(_HARD)
 	para "It's your first"
 	line "step on the road"
-	cont "to the LEAGUE!"
+	cont "to the League!"
 ELSE
 	para "Its bearer's"
-	line "#MON become"
+	line "#mon become"
 	cont "more powerful!"
 ENDC
 	para "Also, the move"
-	line "FLASH can now be"
+	line "Flash can now be"
 	cont "used anytime!"
 	prompt
 
@@ -88,7 +88,7 @@ _PewterGymBattleText1::
 
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "Brock!"
 	done
 
 _PewterGymEndBattleText1::
@@ -102,14 +102,14 @@ _PewterGymEndBattleText1::
 _PewterGymAfterBattleText1::
 	text "You're pretty hot,"
 	line "but not as hot"
-	cont "as BROCK!"
+	cont "as Brock!"
 	done
 
 _PewterGymText_5c515::
 	text "Hiya! I can tell"
 	line "you have what it"
 	cont "takes to become a"
-	cont "#MON champ!"
+	cont "#mon champ!"
 
 	para "I'm no trainer,"
 	line "but I can tell"
@@ -125,13 +125,13 @@ _PewterGymText_5c51a::
 	prompt
 
 _PewterGymText_5c51f::
-	text "The 1st #MON"
+	text "The 1st #mon"
 	line "out in a match is"
 	cont "at the top of the"
-	cont "#MON list!"
+	cont "#mon list!"
 
 	para "By changing the"
-	line "order of #MON,"
+	line "order of #mon,"
 	cont "matches could be"
 	cont "made easier!"
 	done
@@ -144,6 +144,6 @@ _PewterGymText_5c524::
 
 _PewterGymText_5c529::
 	text "Just as I thought!"
-	line "You're #MON"
+	line "You're #mon"
 	cont "champ material!"
 	done

@@ -1,5 +1,5 @@
 _TowerRescueFujiText::
-	text "MR.FUJI: Heh? You"
+	text "Mr.Fuji: Heh? You"
 	line "came to save me?"
 
 	para "Thank you. But, I"
@@ -8,9 +8,9 @@ _TowerRescueFujiText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "Cubone's mother."
 
-	para "I think MAROWAK's"
+	para "I think Marowak's"
 	line "spirit has gone"
 	cont "to the afterlife."
 
@@ -19,7 +19,7 @@ _TowerRescueFujiText::
 	cont "concern!"
 
 	para "Follow me to my"
-	line "home, #MON"
+	line "home, #mon"
 	cont "House at the foot"
 	cont "of this tower."
 	done
@@ -42,7 +42,7 @@ _PokemonTower7BattleText2::
 	text "This old guy came"
 	line "and complained"
 	cont "about us harming"
-	cont "useless #MON!"
+	cont "useless #mon!"
 
 	para "We're talking it"
 	line "over as adults!"
@@ -53,7 +53,7 @@ _PokemonTower7EndBattleText2::
 	prompt
 
 _PokemonTower7AfterBattleText2::
-	text "#MON are only"
+	text "#mon are only"
 	line "good for making"
 	cont "money!"
 
@@ -68,7 +68,7 @@ _PokemonTower7BattleText3::
 
 _PokemonTower7EndBattleText3::
 	text "Don't fight us"
-	line "ROCKETs!"
+	line "Rockets!"
 	prompt
 
 _PokemonTower7AfterBattleText3::

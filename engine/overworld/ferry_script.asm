@@ -204,15 +204,15 @@ DoIslandMenu:
 	
 WelcomeToSeagallopText:
 	text "Welcome aboard"
-	line "the SEAGALLOP"
-	cont "FERRY!"
+	line "the Seagallop"
+	cont "Ferry!"
 	
 	para "We travel all"
 	line "over carrying"
 	cont "passengers."
 	
 	para "Do you have a"
-	line "TICKET to travel"
+	line "ticket to travel"
 	cont "with us today?@@"
 
 NoTicketText:

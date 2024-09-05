@@ -122,7 +122,7 @@ Lab2DoTrade:
 	jp TextScriptEnd
 
 Trader7Name:
-	db "DWAYNE@"
+	db "Dwayne@"
 	
 Trader8Name:
-	db "CHRISTY@"
+	db "Christy@"

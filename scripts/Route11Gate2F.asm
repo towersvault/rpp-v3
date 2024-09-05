@@ -18,7 +18,7 @@ Route11GateUpstairsScriptEnd:
 	jp TextScriptEnd
 	
 Trader0Name:
-	db "TAYLOR@"
+	db "Taylor@"
 
 Route11GateUpstairsText2:
 	TX_ASM

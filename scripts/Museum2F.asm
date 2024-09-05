@@ -37,7 +37,7 @@ Museum2FText5:
 	jp TextScriptEnd
 
 Trader2Name:
-	db "BOB@"
+	db "Bob@"
 
 
 Museum2FText6:

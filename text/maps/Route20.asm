@@ -9,11 +9,11 @@ _Route20EndBattleText1::
 
 _Route20AfterBattleText1::
 	text "I wish I could"
-	line "ride my #MON."
+	line "ride my #mon."
 	done
 
 _Route20BattleText2::
-	text "SEAFOAM is a"
+	text "Seafoam is a"
 	line "quiet getaway!"
 	done
 
@@ -51,7 +51,7 @@ _Route20EndBattleText4::
 	prompt
 
 _Route20AfterBattleText4::
-	text "SEAFOAM used to"
+	text "Seafoam used to"
 	line "be one island!"
 	done
 
@@ -67,12 +67,12 @@ _Route20EndBattleText5::
 _Route20AfterBattleText5::
 	text "I should've been"
 	line "buffing up my"
-	cont "#MON, not me!"
+	cont "#mon, not me!"
 	done
 
 _Route20BattleText6::
 	text "Why are you"
-	line "riding a #MON?"
+	line "riding a #mon?"
 	cont "Can't you swim?"
 	done
 
@@ -82,13 +82,13 @@ _Route20EndBattleText6::
 	prompt
 
 _Route20AfterBattleText6::
-	text "Riding a #MON"
+	text "Riding a #mon"
 	line "sure looks fun!"
 	done
 
 _Route20BattleText7::
 	text "I rode my bird"
-	line "#MON here!"
+	line "#mon here!"
 	done
 
 _Route20EndBattleText7::
@@ -97,7 +97,7 @@ _Route20EndBattleText7::
 
 _Route20AfterBattleText7::
 	text "My birds can't"
-	line "FLY me back!"
+	line "Fly me back!"
 	done
 
 _Route20BattleText8::
@@ -113,12 +113,12 @@ _Route20EndBattleText8::
 _Route20AfterBattleText8::
 	text "Will my pearls"
 	line "grow bigger"
-	cont "inside CLOYSTER?"
+	cont "inside Cloyster?"
 	done
 
 _Route20BattleText9::
 	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	line "Cinnabar Island!"
 	done
 
 _Route20EndBattleText9::
@@ -126,16 +126,16 @@ _Route20EndBattleText9::
 	prompt
 
 _Route20AfterBattleText9::
-	text "#MON have"
+	text "#mon have"
 	line "taken over an"
 	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	cont "on Cinnabar!"
 	done
 
 _Route20BattleText10::
-	text "CINNABAR, in the"
+	text "Cinnabar, in the"
 	line "west, has a Lab"
-	cont "for #MON."
+	cont "for #mon."
 	done
 
 _Route20EndBattleText10::
@@ -143,11 +143,11 @@ _Route20EndBattleText10::
 	prompt
 
 _Route20AfterBattleText10::
-	text "CINNABAR is a"
+	text "Cinnabar is a"
 	line "volcanic island!"
 	done
 
 _Route20Text12::
 _Route20Text11::
-	text "SEAFOAM ISLANDS"
+	text "Seafoam Islands"
 	done

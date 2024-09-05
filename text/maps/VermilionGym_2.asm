@@ -7,22 +7,22 @@ _VermilionGymText_5cb72::
 
 	para "But, it's useless"
 	line "against ground-"
-	cont "type #MON!"
+	cont "type #mon!"
 	done
 
 _VermilionGymText_5cb77::
 IF DEF(_HARD)
-	text "The THUNDERBADGE"
-	line "lets your #MON"
-	cont "use FLY any time,"
+	text "The ThunderBadge"
+	line "lets your #mon"
+	cont "use Fly any time,"
 	cont "kid!"
 ELSE
-	text "The THUNDERBADGE"
+	text "The ThunderBadge"
 	line "cranks up your"
-	cont "#MON's Speed!"
+	cont "#mon's Speed!"
 
 	para "It also lets your"
-	line "#MON FLY any-"
+	line "#mon Fly any-"
 	cont "time, kid!"
 ENDC
 
@@ -39,10 +39,10 @@ _ReceivedTM24Text::
 _TM24ExplanationText::
 	db $0
 	para "TM24 contains"
-	line "THUNDERBOLT!"
+	line "Thunderbolt!"
 
 	para "Teach it to an"
-	line "electric #MON!"
+	line "electric #mon!"
 	done
 
 _TM24NoRoomText::
@@ -57,12 +57,12 @@ _ReceivedThunderbadgeText::
 	line "deal, kid!"
 
 	para "Fine then, take"
-	line "the THUNDERBADGE!"
+	line "the ThunderBadge!"
 	prompt
 
 _VermilionGymBattleText1::
 	text "When I was in the"
-	line "ARMY, LT. SURGE"
+	line "Army, Lt. Surge"
 	cont "was my strict CO!"
 	done
 
@@ -75,7 +75,7 @@ _VermilionGymAfterBattleText1::
 	text "The door won't"
 	line "open?"
 
-	para "LT. SURGE always"
+	para "Lt. Surge always"
 	line "was cautious!"
 	done
 
@@ -95,7 +95,7 @@ _VermilionGymEndBattleText2::
 _VermilionGymAfterBattleText2::
 	text "OK, I'll talk!"
 
-	para "LT. SURGE said he"
+	para "Lt. Surge said he"
 	line "hid door switches"
 	cont "inside something!"
 	done
@@ -111,7 +111,7 @@ _VermilionGymEndBattleText3::
 	prompt
 
 _VermilionGymAfterBattleText3::
-	text "LT. SURGE set up"
+	text "Lt. Surge set up"
 	line "double locks!"
 	cont "Here's a hint!"
 
@@ -125,21 +125,21 @@ _VermilionGymText_5cbf4::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "LT. SURGE has a"
+	para "Lt. Surge has a"
 	line "nickname. People"
 	cont "refer to him as"
 	cont "the Lightning"
 	cont "American!"
 
 	para "He's an expert on"
-	line "electric #MON!"
+	line "electric #mon!"
 
 	para "Birds and water"
-	line "#MON are at"
+	line "#mon are at"
 	cont "risk! Beware of"
 	cont "paralysis too!"
 
-	para "LT. SURGE is very"
+	para "Lt. Surge is very"
 	line "cautious!"
 
 	para "You'll have to"
