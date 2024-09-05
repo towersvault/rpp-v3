@@ -14,7 +14,7 @@ _CeladonGymText_48a5e::
 	para "I teach the art of"
 	line "flower arranging."
 	cont "My #MON are of"
-	cont "the GRASS-type."
+	cont "the grass-type."
 
 	para "Oh, I'm sorry, I"
 	line "had no idea that"
@@ -110,13 +110,13 @@ _CeladonGymEndBattleText3::
 	prompt
 
 _CeladonGymAfterBattleText3::
-	text "GRASS-type #MON"
+	text "Grass-type #MON"
 	line "are tough against"
-	cont "the WATER-type!"
+	cont "the water-type!"
 
 	para "They also have an"
-	line "edge on ROCK and"
-	cont "GROUND #MON!"
+	line "edge on rock and"
+	cont "ground #MON!"
 	done
 
 _CeladonGymBattleText4::
@@ -135,7 +135,7 @@ _CeladonGymAfterBattleText4::
 	done
 
 _CeladonGymBattleText5::
-	text "Look at my GRASS"
+	text "Look at my grass"
 	line "#MON!"
 
 	para "They're so easy"
@@ -147,7 +147,7 @@ _CeladonGymEndBattleText5::
 	prompt
 
 _CeladonGymAfterBattleText5::
-	text "We only use GRASS-"
+	text "We only use grass-"
 	line "type #MON at"
 	cont "our GYM!"
 
