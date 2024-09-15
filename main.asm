@@ -2155,6 +2155,7 @@ INCLUDE "color/animations.asm"
 ;-------------------------------------------------
 ; @towersvault
 ; Ported over a few features from Pokemon Shin Red
+; and Pokemon Yellow Legacy
 INCLUDE "custom_functions/func_overworld.asm"
 ;-------------------------------------------------
 

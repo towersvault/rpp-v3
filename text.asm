@@ -1338,6 +1338,12 @@ _GainedText::
 	text " gained"
 	line "@@"
 
+_GainedNoText::
+	TX_RAM wcd6d
+	text " is at"
+	line "LEVEL CAP!"
+	prompt
+
 _WithExpAllText::
 	text "[PLAYER]'s other"
 	line "#MON gained"

@@ -135,6 +135,60 @@ GainExperience:
 	ld [wd0b5], a
 	call GetMonHeader
 	ld d, MAX_LEVEL
+IF DEF(_HARD)
+	; @towersvault
+	; Ported from Pokemon Yellow Legacy
+	; Playing on HARD difficulty means level capping gets enabled
+	; to avoid the player's Pokemon over-levelling past the next
+	; trainer.
+
+	; Check if E4 have been defeated. If so, rD=MAX_LEVEL is allowed
+	ld a, [wGameStage]
+	and a
+	jr nz, .next1
+
+	; Check badges obtained and set max level to the relevant cap.
+	call GetBadgesObtained
+	ld a, [wNumSetBits]
+
+	cp BADGEBIT_8
+	ld d, BADGECAP_E4
+	jr nc, .next1
+
+	cp BADGEBIT_7
+	ld d, BADGECAP_GIOVANNI
+	jr nc, .next1
+
+	cp BADGEBIT_6
+	ld d, BADGECAP_BLAINE
+	jr nc, .next1
+
+	cp BADGEBIT_5
+	ld d, BADGECAP_SABRINA
+	jr nc, .next1
+
+	cp BADGEBIT_4
+	ld d, BADGECAP_KOGA
+	jr nc, .next1
+
+	cp BADGEBIT_3
+	ld d, BADGECAP_ERIKA
+	jr nc, .next1
+
+	cp BADGEBIT_2
+	ld d, BADGECAP_LTSURGE
+	jr nc, .next1
+
+	cp BADGEBIT_1
+	ld d, BADGECAP_MISTY
+	jr nc, .next1
+
+	ld d, BADGECAP_BROCK
+
+	ld a, d
+	ld [wMonLevelCap], a
+.next1
+ENDC
 	callab CalcExperience ; get max exp
 ; compare max exp with current exp
 	ld a, [hExperience]
@@ -175,10 +229,27 @@ GainExperience:
 	push hl
 	callba CalcLevelFromExperience
 	pop hl
+IF DEF (_HARD)
+	; For checking if level cap has been reached
+	push de
+	ld a, [wMonLevelCap]
+	ld d, a
+
+	ld a, [hl]
+	cp d
+	jr nz, .levelCheck
+	pop de
+.skipExpText
+	ld hl, GainedNoText
+	call PrintText
+	jp .nextMon
+.levelCheck
+	pop de
+ENDC
 	ld a, [hl] ; current level
 	ld [wTempLevel], a ; store current level
 	cp d
-	jp z, .nextMon ; if level didn't change, go to next mon
+	jp z, .nextMon ; if level didn't change, go to next mons
 	call KeepEXPBarFull
 	push af
 	push hl
@@ -383,6 +454,10 @@ GainedText:
 	ld hl, BoostedText
 	ret
 
+GainedNoText:
+	TX_FAR _GainedNoText
+	db "@"
+
 WithExpAllText:
 	TX_FAR _WithExpAllText
 	db "@"
@@ -398,3 +473,19 @@ GrewLevelText:
 	TX_FAR _GrewLevelText
 	TX_SFX_LEVEL_UP
 	db "@"
+
+; @towersvault
+; Ported from Pokemon Yellow Legacy
+; Function to count the set bits in wObtainedBadges
+GetBadgesObtained::
+	push hl
+	push bc
+	push de
+	ld hl, wObtainedKantoBadges
+	ld b, $1
+	call CountSetBits
+	pop de
+	pop bc
+	pop hl
+	ld a, [wNumSetBits]
+	ret 

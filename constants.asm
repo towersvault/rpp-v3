@@ -9,6 +9,10 @@ INCLUDE "constants/hardware_constants.asm"
 INCLUDE "constants/oam_constants.asm"
 INCLUDE "constants/misc_constants.asm"
 
+IF DEF(_HARD)
+INCLUDE "constants/gym_constants.asm"
+ENDC
+
 INCLUDE "constants/pokemon_constants.asm"
 INCLUDE "constants/pokedex_constants.asm"
 INCLUDE "constants/trainer_constants.asm"

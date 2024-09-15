@@ -41,6 +41,10 @@ HallofFameRoomScript2:
 	ld [wHallOfFameRoomCurScript], a
 	; Elite 4 events
 	ResetEventRange ELITE4_EVENTS_START, ELITE4_CHAMPION_EVENTS_END, 1
+	; @towersvault: Set wGameStage flag to TRUE as the E4 have now been beaten
+	; Ported from Pokemon Yellow Legacy
+	ld a, 1
+	ld [wGameStage], a
 	xor a
 	ld [wHallOfFameRoomCurScript], a
 	ld a, PALLET_TOWN

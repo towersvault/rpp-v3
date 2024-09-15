@@ -3302,11 +3302,18 @@ wCardKeyDoorX:: ; d740
 wFirstLockTrashCanIndex:: ; d743
 	ds 1
 
-wSecondLockTrashCanIndex:: ; d743
+wSecondLockTrashCanIndex:: ; d744
 	ds 1
 
-; unused?
-	ds 2
+; @towersvault: wGameStage bit flag for if E4 had been beaten
+; Ported from Pokemon Yellow Legacy
+wGameStage:: ; d745
+	ds 1
+
+; @towersvault: wMonLevelCap used in the _HARD ROM when experience gets added
+wMonLevelCap:: ; d746
+	ds 1
+
 wEventFlags:: ; d747
 	ds 139
 
