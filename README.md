@@ -21,7 +21,7 @@ For a list of features, check out [**FEATURES.md**](FEATURES.md).
 * To see which Pokémon are found in the wild in each area, look [**here**](data/wildPokemon/).
 * To see a list of Pokémon you can find via Headbutting trees, look [**here**](data/wildPokemon/tree_mons.asm).
 * To see all the In-Game Trades and where they are found, look [**here**](data/trades.asm).
-
+* To see the level caps when playing in Hard Difficulty, look [**here**](constants/gym_constants.asm).
 
 
 ## Frequently Asked Questions
