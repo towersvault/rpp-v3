@@ -25,7 +25,7 @@ _ReceivingHM01Text::
 	line "have this!"
 
 	para "Teach it to your"
-	line "#mon and you"
+	line "#MON and you"
 	cont "can see it CUT"
 	cont "anytime!"
 	prompt
