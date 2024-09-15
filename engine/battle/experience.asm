@@ -184,10 +184,9 @@ IF DEF(_HARD)
 	jr nc, .next1
 
 	ld d, BADGECAP_BROCK
-
+.next1
 	ld a, d
 	ld [wMonLevelCap], a
-.next1
 ENDC
 	callab CalcExperience ; get max exp
 ; compare max exp with current exp
